@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated output
+reports/
+samples/large_*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

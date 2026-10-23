@@ -1,0 +1,242 @@
+{
+  "general": {
+    "timezone": "local",
+    "max_evidence_per_finding": 5,
+    "max_samples_per_detail": 10
+  },
+
+  "detection": {
+    "brute_force": {
+      "enabled": true,
+      "failure_threshold": 5,
+      "time_window_seconds": 300,
+      "critical_threshold": 50,
+      "password_spray_min_users": 5,
+      "success_correlation_window_seconds": 3600
+    },
+
+    "off_hours": {
+      "enabled": true,
+      "business_hours_start": "08:00",
+      "business_hours_end": "18:00",
+      "business_days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "holidays": [],
+      "monitored_categories": [
+        "auth_success",
+        "priv_command",
+        "priv_switch",
+        "group_change",
+        "account_created",
+        "process_exec"
+      ],
+      "windows_logon_types": [2, 10, 11]
+    },
+
+    "privilege_escalation": {
+      "enabled": true,
+      "privileged_accounts": ["root", "administrator", "admin"],
+      "privileged_groups": [
+        "root", "sudo", "wheel", "admin", "adm", "docker", "lxd",
+        "Administrators", "Domain Admins", "Enterprise Admins", "Schema Admins",
+        "Account Operators", "Backup Operators", "Server Operators", "DnsAdmins",
+        "Group Policy Creator Owners"
+      ],
+      "suspicious_command_patterns": [
+        "(?:^|/|\\s)(?:ba|z|da|k)?sh(?:\\s+-[il]+)?\\s*$",
+        "(?:^|/)su(?:\\s.*)?$",
+        "\\bchmod\\s+(?:-\\S+\\s+)*(?:[ugoa]*\\+[rwx]*s|[4-7][0-7]{3})\\b",
+        "/etc/(?:sudoers(?:\\.d)?|shadow|gshadow)\\b",
+        "(?:\\bvi|\\bvim|\\bnano|\\btee|\\bsed\\s+-i).*?/etc/passwd\\b",
+        "\\bvisudo\\b",
+        "\\bsetcap\\b",
+        "\\b(?:nc|ncat|netcat)\\b.*\\s-[a-z]*e\\b",
+        "/dev/tcp/",
+        "\\bsocat\\b.*\\bexec\\b",
+        "\\bpython[0-9.]*\\s+-c\\s+.*\\b(?:socket|pty)\\b",
+        "\\b(?:curl|wget)\\b.*\\|\\s*(?:ba)?sh\\b",
+        "\\bhistory\\s+-c\\b|\\bunset\\s+HISTFILE\\b",
+        "\\b(?:rm|truncate|shred)\\b.*?/var/log/",
+        "\\binsmod\\b",
+        "\\bnet1?(?:\\.exe)?\"?\\s+user\\s+.*?/add\\b",
+        "\\bnet1?(?:\\.exe)?\"?\\s+(?:local)?group\\s+.*?/add\\b",
+        "\\bvssadmin(?:\\.exe)?\"?\\s+delete\\s+shadows\\b",
+        "\\bwevtutil(?:\\.exe)?\"?\\s+(?:cl|clear-log)\\b",
+        "\\bmimikatz\\b|sekurlsa::|lsadump::",
+        "\\bpowershell(?:\\.exe)?\"?\\s.*\\s-(?:e|en|enc|encodedcommand)\\s",
+        "\\bwhoami(?:\\.exe)?\"?\\s+/priv\\b",
+        "\\breg(?:\\.exe)?\"?\\s+save\\s+hklm\\\\(?:sam|system|security)\\b",
+        "\\bbcdedit\\b.*recoveryenabled\\s+no\\b",
+        "\\bschtasks(?:\\.exe)?\"?\\s+/create\\b.*\\s/ru\\s+\"?system\\b"
+      ]
+    },
+
+    "ignored_accounts": [
+      "^SYSTEM$",
+      "^LOCAL SERVICE$",
+      "^NETWORK SERVICE$",
+      "^ANONYMOUS LOGON$",
+      "^(?:DWM|UMFD)-\\d+$",
+      "\\$$"
+    ],
+    "ignored_source_ips": []
+  },
+
+  "scoring": {
+    "rule_weights": {
+      "BF-001": 15,
+      "BF-002": 18,
+      "BF-003": 25,
+      "OH-001": 6,
+      "OH-002": 10,
+      "PE-001": 4,
+      "PE-002": 12,
+      "PE-003": 6,
+      "PE-004": 8,
+      "PE-005": 15,
+      "PE-006": 8,
+      "PE-007": 10,
+      "PE-008": 3,
+      "PE-009": 25,
+      "DE-001": 25,
+      "TI-001": 12
+    },
+    "severity_multipliers": {
+      "low": 0.5,
+      "medium": 1.0,
+      "high": 1.5,
+      "critical": 2.0
+    },
+    "max_points_per_rule": 40,
+    "risk_levels": {
+      "medium": 20,
+      "high": 45,
+      "critical": 75
+    },
+    "critical_finding_minimum_level": "high"
+  },
+
+  "linux": {
+    "rules": [
+      {
+        "id": "ssh_failed_auth",
+        "category": "auth_failure",
+        "programs": ["sshd", "sshd-session"],
+        "pattern": "^Failed (?:password|publickey|keyboard-interactive/pam|none) for (?:invalid user )?(?P<user>\\S*) from (?P<ip>\\S+) port \\d+"
+      },
+      {
+        "id": "ssh_accepted",
+        "category": "auth_success",
+        "programs": ["sshd", "sshd-session"],
+        "pattern": "^Accepted (?P<method>\\S+) for (?P<user>\\S+) from (?P<ip>\\S+) port \\d+"
+      },
+      {
+        "id": "pam_auth_failure",
+        "category": "auth_failure",
+        "programs": ["login", "gdm-password", "lightdm", "vsftpd", "cockpit-session", "xrdp-sesman", "dovecot"],
+        "pattern": "pam_unix\\([^:)]+:auth\\): authentication failure;.*?rhost=(?P<ip>\\S*)\\s+user=(?P<user>\\S+)"
+      },
+      {
+        "id": "sudo_unauthorized",
+        "category": "priv_failure",
+        "severity": "high",
+        "programs": ["sudo"],
+        "pattern": "^\\s*(?P<user>\\S+) : (?:user NOT in sudoers|user NOT authorized on host|command not allowed) ; (?:.*? ; )?USER=(?P<target_user>\\S+) ; (?:.*? ; )?COMMAND=(?P<command>.*)$"
+      },
+      {
+        "id": "sudo_auth_failure",
+        "category": "priv_failure",
+        "severity": "medium",
+        "programs": ["sudo"],
+        "pattern": "^\\s*(?P<user>\\S+) : (?:\\d+ )?incorrect password attempts? ; (?:.*? ; )?USER=(?P<target_user>\\S+) ; (?:.*? ; )?COMMAND=(?P<command>.*)$"
+      },
+      {
+        "id": "sudo_command",
+        "category": "priv_command",
+        "programs": ["sudo"],
+        "pattern": "^\\s*(?P<user>\\S+) : TTY=\\S+ ; PWD=.*? ; USER=(?P<target_user>\\S+) ; (?:.*? ; )?COMMAND=(?P<command>.*)$"
+      },
+      {
+        "id": "pkexec_command",
+        "category": "priv_command",
+        "programs": ["pkexec"],
+        "pattern": "^(?P<user>\\S+): Executing command \\[USER=(?P<target_user>[^\\]]+)\\] \\[TTY=[^\\]]*\\] \\[CWD=[^\\]]*\\] \\[COMMAND=(?P<command>[^\\]]+)\\]"
+      },
+      {
+        "id": "pkexec_unauthorized",
+        "category": "priv_failure",
+        "severity": "high",
+        "programs": ["pkexec"],
+        "pattern": "^(?P<user>\\S+): Error executing command as another user: Not authorized \\[USER=(?P<target_user>[^\\]]+)\\].*?\\[COMMAND=(?P<command>[^\\]]+)\\]"
+      },
+      {
+        "id": "su_auth_failure",
+        "category": "priv_failure",
+        "severity": "medium",
+        "programs": ["su", "su-l"],
+        "pattern": "pam_unix\\(su(?:-l)?:auth\\): authentication failure;.*?ruser=(?P<user>\\S*).*?\\suser=(?P<target_user>\\S+)"
+      },
+      {
+        "id": "su_session",
+        "category": "priv_switch",
+        "programs": ["su", "su-l"],
+        "pattern": "pam_unix\\(su(?:-l)?:session\\): session opened for user (?P<target_user>[^\\s(]+)(?:\\(uid=\\d+\\))? by (?P<user>[^\\s(]*)"
+      },
+      {
+        "id": "group_member_added",
+        "category": "group_change",
+        "programs": ["usermod", "useradd", "groupmems"],
+        "pattern": "^add '(?P<user>[^']+)' to group '(?P<group>[^']+)'"
+      },
+      {
+        "id": "gpasswd_member_added",
+        "category": "group_change",
+        "programs": ["gpasswd"],
+        "pattern": "^user (?P<user>\\S+) added by (?P<actor>\\S+) to group (?P<group>\\S+)"
+      },
+      {
+        "id": "user_created",
+        "category": "account_created",
+        "programs": ["useradd", "adduser"],
+        "pattern": "^new user: name=(?P<user>[^,]+), UID=(?P<uid>\\d+)"
+      }
+    ]
+  },
+
+  "windows": {
+    "event_categories": {
+      "4624": "auth_success",
+      "4625": "auth_failure",
+      "4771": "auth_failure",
+      "4672": "special_privileges",
+      "4720": "account_created",
+      "4728": "group_change",
+      "4732": "group_change",
+      "4756": "group_change",
+      "4688": "process_exec",
+      "1102": "log_cleared",
+      "104": { "category": "log_cleared", "provider_contains": "Eventlog" }
+    },
+    "timestamp_formats": [
+      "%m/%d/%Y %I:%M:%S %p",
+      "%m/%d/%Y %H:%M:%S",
+      "%d.%m.%Y %H:%M:%S",
+      "%d/%m/%Y %H:%M:%S",
+      "%Y-%m-%d %H:%M:%S",
+      "%Y/%m/%d %H:%M:%S"
+    ]
+  },
+
+  "integrations": {
+    "abuseipdb": {
+      "max_age_in_days": 90,
+      "malicious_confidence_threshold": 75,
+      "timeout_seconds": 10,
+      "max_lookups": 25
+    },
+    "webhook": {
+      "payload_style": "slack",
+      "timeout_seconds": 10,
+      "min_risk_level": "medium"
+    }
+  }
+}

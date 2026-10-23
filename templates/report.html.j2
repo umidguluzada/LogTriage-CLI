@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="LogTriage-CLI {{ report.tool.version }}">
+<title>LogTriage Report - {{ report.input.files_display | join(", ") }}</title>
+<style>
+  :root {
+    --bg: #f4f6fb;
+    --surface: #ffffff;
+    --surface-alt: #f8fafc;
+    --border: #e2e8f0;
+    --text: #0f172a;
+    --muted: #64748b;
+    --accent: #4f46e5;
+    --critical: #be123c;
+    --critical-bg: #ffe4e6;
+    --high: #ea580c;
+    --high-bg: #ffedd5;
+    --medium: #ca8a04;
+    --medium-bg: #fef9c3;
+    --low: #16a34a;
+    --low-bg: #dcfce7;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(15, 23, 42, .06), 0 4px 16px rgba(15, 23, 42, .06);
+    --mono: ui-monospace, "Cascadia Code", "JetBrains Mono", Consolas, "Liberation Mono", monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font: 14px/1.55 Inter, "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .container { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+
+  /* Header ---------------------------------------------------------------- */
+  .hero {
+    background: radial-gradient(1200px 400px at 85% -20%, rgba(99, 102, 241, .45), transparent),
+                linear-gradient(135deg, #0b1023 0%, #111a3a 55%, #1e1b4b 100%);
+    color: #e2e8f0;
+    padding: 36px 0 84px;
+  }
+  .hero-inner { display: flex; justify-content: space-between; align-items: center; gap: 32px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: .4px; color: #a5b4fc; text-transform: uppercase; font-size: 12px; }
+  .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: linear-gradient(135deg, #6366f1, #22d3ee); display: grid; place-items: center; color: #0b1023; font-weight: 800; font-size: 13px; }
+  .hero h1 { margin: 10px 0 6px; font-size: 30px; font-weight: 700; color: #fff; letter-spacing: -.3px; }
+  .hero-meta { display: flex; flex-wrap: wrap; gap: 8px 22px; color: #94a3b8; font-size: 13px; }
+  .hero-meta strong { color: #e2e8f0; font-weight: 600; }
+
+  .gauge {
+    --score: 0;
+    --color: var(--low);
+    width: 148px; height: 148px; border-radius: 50%;
+    background: conic-gradient(var(--color) calc(var(--score) * 1%), rgba(255, 255, 255, .1) 0);
+    display: grid; place-items: center; flex-shrink: 0;
+  }
+  .gauge-inner { width: 118px; height: 118px; border-radius: 50%; background: #0f1530; display: grid; place-items: center; text-align: center; }
+  .gauge-score { font-size: 34px; font-weight: 800; color: #fff; line-height: 1; }
+  .gauge-label { margin-top: 4px; font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; font-weight: 700; }
+  .gauge.critical { --color: #f43f5e; } .gauge.critical .gauge-label { color: #fb7185; }
+  .gauge.high { --color: #f97316; } .gauge.high .gauge-label { color: #fb923c; }
+  .gauge.medium { --color: #eab308; } .gauge.medium .gauge-label { color: #facc15; }
+  .gauge.low { --color: #22c55e; } .gauge.low .gauge-label { color: #4ade80; }
+
+  /* Layout ---------------------------------------------------------------- */
+  main { margin-top: -56px; padding-bottom: 48px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 20px; }
+  .card-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .6px; font-weight: 600; }
+  .card-value { font-size: 26px; font-weight: 700; margin-top: 4px; letter-spacing: -.3px; }
+  .card-sub { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  section { margin-top: 28px; }
+  .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+  h2 { font-size: 18px; margin: 0; letter-spacing: -.2px; }
+  .section-head .hint { color: var(--muted); font-size: 13px; }
+  .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; }
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px; overflow: hidden; }
+  .panel h3 { margin: 0 0 14px; font-size: 15px; }
+
+  /* Severity -------------------------------------------------------------- */
+  .pill { display: inline-flex; align-items: center; gap: 6px; padding: 2px 10px; border-radius: 999px; font-size: 11.5px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase; white-space: nowrap; }
+  .pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .pill.critical { color: var(--critical); background: var(--critical-bg); }
+  .pill.high { color: var(--high); background: var(--high-bg); }
+  .pill.medium { color: var(--medium); background: var(--medium-bg); }
+  .pill.low { color: var(--low); background: var(--low-bg); }
+  .sevbar { display: flex; height: 10px; border-radius: 999px; overflow: hidden; background: var(--border); margin: 14px 0 10px; }
+  .sevbar span.critical { background: var(--critical); } .sevbar span.high { background: var(--high); }
+  .sevbar span.medium { background: #eab308; } .sevbar span.low { background: var(--low); }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px 18px; color: var(--muted); font-size: 13px; }
+
+  /* Findings -------------------------------------------------------------- */
+  .finding { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 12px; }
+  .finding.critical { border-left-color: var(--critical); } .finding.high { border-left-color: var(--high); }
+  .finding.medium { border-left-color: #eab308; } .finding.low { border-left-color: var(--low); }
+  .finding > summary { list-style: none; cursor: pointer; padding: 14px 18px; display: grid; grid-template-columns: 110px 70px 1fr auto auto; gap: 14px; align-items: center; }
+  .finding > summary::-webkit-details-marker { display: none; }
+  .finding > summary .pill { justify-self: start; }
+  .finding > summary:hover { background: var(--surface-alt); border-radius: var(--radius); }
+  .finding[open] > summary { border-bottom: 1px solid var(--border); }
+  .rule-id { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+  .f-title { font-weight: 600; }
+  .f-entity { font-family: var(--mono); font-size: 12.5px; color: var(--muted); margin-top: 2px; word-break: break-all; }
+  .f-count { color: var(--muted); font-size: 12.5px; white-space: nowrap; text-align: right; }
+  .f-score { font-weight: 700; font-size: 13px; min-width: 52px; text-align: right; }
+  .finding-body { padding: 16px 18px 18px; }
+  .finding-body p { margin: 0 0 12px; }
+  .finding-body .desc { color: var(--muted); }
+  .meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px 18px; margin: 14px 0; }
+  .meta div span { display: block; color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: .5px; font-weight: 600; }
+  .tag { display: inline-block; font-family: var(--mono); font-size: 11.5px; padding: 1px 8px; border-radius: 6px; background: #eef2ff; color: var(--accent); margin: 2px 4px 2px 0; }
+  .kv { width: 100%; border-collapse: collapse; margin: 6px 0 14px; }
+  .kv th { text-align: left; width: 210px; color: var(--muted); font-weight: 600; font-size: 12.5px; vertical-align: top; padding: 6px 10px 6px 0; }
+  .kv td { padding: 6px 0; font-family: var(--mono); font-size: 12.5px; word-break: break-word; }
+  .evidence { background: #0b1023; color: #cbd5e1; border-radius: 10px; padding: 14px 16px; font: 12px/1.6 var(--mono); overflow-x: auto; white-space: pre; margin: 0; }
+  .empty { text-align: center; padding: 36px; color: var(--muted); }
+
+  /* Tables ---------------------------------------------------------------- */
+  table.data { width: 100%; border-collapse: collapse; }
+  table.data th { text-align: left; font-size: 11.5px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); font-weight: 600; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  table.data td { padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  table.data tr:last-child td { border-bottom: none; }
+  table.data td.num, table.data th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .mono { font-family: var(--mono); font-size: 12.5px; word-break: break-all; }
+  .meter { height: 6px; border-radius: 999px; background: var(--border); overflow: hidden; min-width: 80px; }
+  .meter span { display: block; height: 100%; background: linear-gradient(90deg, #6366f1, #22d3ee); }
+
+  /* Hourly chart ---------------------------------------------------------- */
+  .chart { display: grid; grid-template-columns: repeat(24, 1fr); gap: 6px; align-items: end; height: 180px; padding-top: 8px; }
+  .bar { position: relative; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
+  .bar span { width: 100%; border-radius: 5px 5px 2px 2px; background: #a5b4fc; min-height: 2px; }
+  .bar.off span { background: #f43f5e; opacity: .8; }
+  .chart-labels { display: grid; grid-template-columns: repeat(24, 1fr); gap: 6px; margin-top: 6px; font-size: 10.5px; color: var(--muted); text-align: center; font-family: var(--mono); }
+  .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+
+  footer { color: var(--muted); font-size: 12.5px; text-align: center; padding: 28px 0 40px; }
+
+  @media (max-width: 760px) {
+    .finding > summary { grid-template-columns: auto 1fr auto; gap: 10px; }
+    .finding > summary .rule-id, .finding > summary .f-count { display: none; }
+    .grid-2 { grid-template-columns: 1fr; }
+  }
+  @media print {
+    body { background: #fff; }
+    .hero { padding: 24px 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    main { margin-top: 16px; }
+    .card, .panel, .finding { box-shadow: none; break-inside: avoid; }
+    details.finding:not([open]) > .finding-body { display: block; }
+  }
+</style>
+</head>
+<body>
+{% set summary = report.summary %}
+{% set level = summary.risk_level | lower %}
+{% set total_findings = summary.findings_total %}
+
+<header class="hero">
+  <div class="container hero-inner">
+    <div>
+      <div class="brand"><span class="brand-mark">LT</span> LogTriage-CLI</div>
+      <h1>Security Log Triage Report</h1>
+      <div class="hero-meta">
+        <span>Source: <strong>{{ report.input.files_display | join(", ") }}</strong></span>
+        <span>Log type: <strong>{{ report.input.log_type | capitalize }}</strong></span>
+        <span>Generated: <strong>{{ report.generated_at | ts }}</strong></span>
+        <span>Timezone: <strong>{{ report.input.timezone }}</strong></span>
+      </div>
+    </div>
+    <div class="gauge {{ level }}" style="--score: {{ summary.risk_score }}" role="img"
+         aria-label="Risk score {{ summary.risk_score }} out of 100, {{ summary.risk_level }}">
+      <div class="gauge-inner">
+        <div>
+          <div class="gauge-score">{{ summary.risk_score | round | int }}</div>
+          <div class="gauge-label">{{ summary.risk_level }} risk</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="cards">
+    <div class="card">
+      <div class="card-label">Overall risk</div>
+      <div class="card-value"><span class="pill {{ level }}">{{ summary.risk_level }}</span></div>
+      <div class="card-sub">Score {{ summary.risk_score }} / 100</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Findings</div>
+      <div class="card-value">{{ total_findings | thousands }}</div>
+      <div class="card-sub">{{ summary.severity_counts.Critical }} critical &middot; {{ summary.severity_counts.High }} high</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Security events</div>
+      <div class="card-value">{{ summary.events_analyzed | thousands }}</div>
+      <div class="card-sub">of {{ summary.records_processed | thousands }} records</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Time range</div>
+      <div class="card-value" style="font-size:15px; margin-top:8px">{{ summary.time_range.start | ts }}</div>
+      <div class="card-sub">to {{ summary.time_range.end | ts }}</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Processing</div>
+      <div class="card-value">{{ "%.2f" | format(summary.processing_seconds) }}s</div>
+      <div class="card-sub">{{ summary.records_per_second | thousands }} records / s</div>
+    </div>
+  </div>
+
+  <section>
+    <div class="panel">
+      <h3>Severity distribution</h3>
+      <div class="sevbar">
+        {% for name, count in summary.severity_counts.items() if count %}
+        <span class="{{ name | lower }}" style="width: {{ (count / total_findings * 100) | round(2) }}%"
+              title="{{ name }}: {{ count }}"></span>
+        {% endfor %}
+      </div>
+      <div class="legend">
+        {% for name, count in summary.severity_counts.items() %}
+        <span><span class="pill {{ name | lower }}">{{ name }}</span> {{ count }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Findings</h2>
+      <span class="hint">Sorted by severity and score &middot; click a finding for details and evidence</span>
+    </div>
+    {% for f in report.findings %}
+    <details class="finding {{ f.severity | lower }}"{% if loop.index <= 3 and f.severity in ("Critical", "High") %} open{% endif %}>
+      <summary>
+        <span class="pill {{ f.severity | lower }}">{{ f.severity }}</span>
+        <span class="rule-id">{{ f.rule_id }}</span>
+        <div>
+          <div class="f-title">{{ f.title }}</div>
+          <div class="f-entity">{{ f.entity_type }}: {{ f.entity }}{% if f.host %} &middot; host: {{ f.host }}{% endif %}</div>
+        </div>
+        <span class="f-count">{{ f.count | thousands }} event{{ "s" if f.count != 1 }}</span>
+        <span class="f-score" title="Risk points">{{ f.score }}</span>
+      </summary>
+      <div class="finding-body">
+        <p>{{ f.summary }}</p>
+        <p class="desc">{{ f.description }}</p>
+        <div class="meta">
+          <div><span>Tactic</span>{{ f.tactic }}</div>
+          <div><span>MITRE ATT&amp;CK</span>
+            {% for technique in f.mitre_attack %}<a class="tag" href="{{ technique | mitre_url }}" target="_blank" rel="noopener noreferrer">{{ technique }}</a>{% else %}-{% endfor %}
+          </div>
+          <div><span>First seen</span>{{ f.first_seen | ts }}</div>
+          <div><span>Last seen</span>{{ f.last_seen | ts }}</div>
+        </div>
+        {% if f.details %}
+        <table class="kv">
+          {% for key, value in f.details.items() %}
+          <tr>
+            <th>{{ key | replace("_", " ") | capitalize }}</th>
+            <td>
+              {% if value is mapping %}
+                {% for k, v in value.items() %}<div>{{ k }}: {{ v }}</div>{% endfor %}
+              {% elif value is iterable and value is not string %}
+                {{ value | join(", ") if value else "-" }}
+              {% else %}
+                {{ value }}
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </table>
+        {% endif %}
+        {% if f.evidence %}
+        <pre class="evidence">{{ f.evidence | join("\n") }}</pre>
+        {% endif %}
+      </div>
+    </details>
+    {% else %}
+    <div class="panel empty">No suspicious activity was detected with the current configuration.</div>
+    {% endfor %}
+  </section>
+
+  <section class="grid-2">
+    <div class="panel">
+      <h3>Riskiest entities</h3>
+      {% if report.risk.entities %}
+      <table class="data">
+        <thead><tr><th>Entity</th><th>Type</th><th>Level</th><th class="num">Findings</th><th class="num">Score</th></tr></thead>
+        <tbody>
+        {% for e in report.risk.entities[:10] %}
+          <tr>
+            <td class="mono">{{ e.entity }}</td>
+            <td>{{ e.entity_type }}</td>
+            <td><span class="pill {{ e.level | lower }}">{{ e.level }}</span></td>
+            <td class="num">{{ e.findings }}</td>
+            <td class="num">{{ e.score }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% else %}<p class="empty">No entities scored.</p>{% endif %}
+    </div>
+    <div class="panel">
+      <h3>Risk score breakdown</h3>
+      {% if report.risk.breakdown %}
+      <table class="data">
+        <thead><tr><th>Rule</th><th>Detection</th><th class="num">Findings</th><th class="num">Points</th></tr></thead>
+        <tbody>
+        {% for b in report.risk.breakdown %}
+          <tr>
+            <td class="mono">{{ b.rule_id }}</td>
+            <td>{{ b.title }}</td>
+            <td class="num">{{ b.findings }}</td>
+            <td class="num" title="Uncapped: {{ b.raw_points }}">{{ b.points }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% else %}<p class="empty">No risk points recorded.</p>{% endif %}
+    </div>
+  </section>
+
+  <section>
+    <div class="panel">
+      <div class="section-head">
+        <h3 style="margin:0">Security activity by hour of day</h3>
+        <span class="legend">
+          <span><span class="swatch" style="background:#a5b4fc"></span>Business hours{% if report.context.get("business_hours") %} ({{ report.context.business_hours }}){% endif %}</span>
+          <span><span class="swatch" style="background:#f43f5e"></span>Off-hours</span>
+        </span>
+      </div>
+      <div class="chart">
+        {% for hour, count, business in hourly %}
+        <div class="bar{% if not business %} off{% endif %}" title="{{ '%02d' | format(hour) }}:00 - {{ count | thousands }} events">
+          <span style="height: {{ (count / hourly_max * 100) | round(2) }}%"></span>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="chart-labels">
+        {% for hour, count, business in hourly %}<span>{{ "%02d" | format(hour) }}</span>{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="grid-2">
+    <div class="panel">
+      <h3>Event categories</h3>
+      <table class="data">
+        <thead><tr><th>Category</th><th></th><th class="num">Events</th></tr></thead>
+        <tbody>
+        {% for c in report.statistics.by_category %}
+          <tr>
+            <td>{{ c.label }}</td>
+            <td style="width:40%"><div class="meter"><span style="width: {{ (c.count / category_max * 100) | round(2) }}%"></span></div></td>
+            <td class="num">{{ c.count | thousands }}</td>
+          </tr>
+        {% else %}
+          <tr><td colspan="3" class="empty">No security events found.</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="panel">
+      <h3>Top failed-login sources</h3>
+      <table class="data">
+        <thead><tr><th>Source IP</th><th class="num">Failures</th></tr></thead>
+        <tbody>
+        {% for item in report.statistics.top_failed_source_ips %}
+          <tr><td class="mono">{{ item.name }}</td><td class="num">{{ item.count | thousands }}</td></tr>
+        {% else %}
+          <tr><td colspan="2" class="empty">No failed logins recorded.</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      <h3 style="margin-top:20px">Top targeted accounts</h3>
+      <table class="data">
+        <thead><tr><th>Account</th><th class="num">Failures</th></tr></thead>
+        <tbody>
+        {% for item in report.statistics.top_failed_accounts %}
+          <tr><td class="mono">{{ item.name }}</td><td class="num">{{ item.count | thousands }}</td></tr>
+        {% else %}
+          <tr><td colspan="2" class="empty">No failed logins recorded.</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="panel">
+      <h3>Processing details</h3>
+      <table class="kv">
+        <tr><th>Files</th><td>{{ report.parsing.files | join(", ") }}</td></tr>
+        <tr><th>Input format</th><td>{{ report.input.input_format }}</td></tr>
+        <tr><th>Bytes processed</th><td>{{ report.parsing.bytes_total | thousands }}</td></tr>
+        <tr><th>Records read</th><td>{{ report.parsing.records_read | thousands }}</td></tr>
+        <tr><th>Security events emitted</th><td>{{ report.parsing.events_emitted | thousands }}</td></tr>
+        <tr><th>Not security-relevant</th><td>{{ report.parsing.unmatched | thousands }}</td></tr>
+        <tr><th>Malformed records</th><td>{{ report.parsing.malformed | thousands }}</td></tr>
+        {% if report.parsing.errors %}<tr><th>Errors</th><td>{{ report.parsing.errors | join("; ") }}</td></tr>{% endif %}
+        {% for name, info in report.integrations.items() %}
+        <tr><th>Integration: {{ name }}</th><td>{% for k, v in info.items() %}<div>{{ k }}: {{ v }}</div>{% endfor %}</td></tr>
+        {% endfor %}
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Generated by LogTriage-CLI v{{ report.tool.version }} &middot; report schema {{ report.report_version }} &middot;
+  Findings are heuristic indicators and require analyst validation.
+</footer>
+</body>
+</html>

